@@ -11,7 +11,7 @@ class TreeNode {
     }
 }
 
-public class B2_Day_11_And_12_BinaryTrees {
+public class B2_Day_11_BinaryTrees {
 
     static int idx = 0;
     static int[] treeInput = {10, 5, 3, -1, -1, 7, -1, 8, -1, -1, 20, -1, 25, -1, -1};
