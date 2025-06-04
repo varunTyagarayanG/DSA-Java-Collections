@@ -8,7 +8,7 @@ class Node {
     }
 }
 
-public class B2_Day_6_LinkedList {
+public class B2_Day_06_LinkedList {
 
     // Question 1a : ---------------------------------------------Start-----------------------------------------------
     // LeetCode: https://leetcode.com/problems/reverse-linked-list/

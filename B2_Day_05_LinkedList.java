@@ -8,7 +8,7 @@ class Node {
     }
 }
 
-public class B2_Day_5_LinkedList {
+public class B2_Day_05_LinkedList {
 
     // Q1: Insert at Head
     public static Node insertAtHead(Node head, int data) {

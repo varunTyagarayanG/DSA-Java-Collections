@@ -22,7 +22,7 @@ class Node {
     }
 }
 
-public class B2_Day_7_LinkedList {
+public class B2_Day_07_LinkedList {
 
     // Question 1 : ---------------------------------------------Start-------------------------------------------------
     // LeetCode: https://leetcode.com/problems/remove-duplicates-from-sorted-list/

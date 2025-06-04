@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class B2_Day_4_Recurssion {
+public class B2_Day_04_Recurssion {
 
     // Question 1: Delete Middle Element of Stack
     // https://www.geeksforgeeks.org/delete-middle-element-stack/
