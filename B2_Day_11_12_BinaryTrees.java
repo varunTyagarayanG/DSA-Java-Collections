@@ -192,6 +192,7 @@ public class B2_Day_11_12_BinaryTrees {
         idx = 0;  // reset index before building
         TreeNode root = buildTree();
 
+        // Traversals
         System.out.println("\nInorder Traversal:");
         inorder(root);
 
@@ -207,21 +208,27 @@ public class B2_Day_11_12_BinaryTrees {
         System.out.println("\n\nGraphical View of the Tree:");
         printGraph(root);
 
+        // Question 2: Depth/Height
         System.out.println("\n=============== QUESTION 2: DEPTH OF BINARY TREE ===============");
         System.out.println("Depth: " + depth(root));
 
+        // Question 3: Diameter
         System.out.println("\n=============== QUESTION 3: DIAMETER OF BINARY TREE ===============");
         System.out.println("Diameter: " + diameterOfBinaryTree(root));
 
+        // Question 4: Balanced Tree
         System.out.println("\n=============== QUESTION 4: IS TREE BALANCED? ===============");
         System.out.println("Balanced? " + isBalanced(root));
 
+        // Question 5: Same Tree
         System.out.println("\n=============== QUESTION 5: ARE TWO TREES SAME? ===============");
         System.out.println("Same Tree as Itself? " + isSameTree(root, root));
 
+        // Question 6: Sum Tree
         System.out.println("\n=============== QUESTION 6: IS TREE A SUM TREE? ===============");
         System.out.println("Sum Tree? " + isSumTree(root));
 
+        // Question 7: Zigzag Level Order
         System.out.println("\n=============== QUESTION 7: ZIGZAG LEVEL ORDER TRAVERSAL ===============");
         List<List<Integer>> zigzag = zigzagLevelOrder(root);
         for (List<Integer> level : zigzag) {
