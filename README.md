@@ -78,3 +78,13 @@
 7. Target Sum ([LeetCode](https://leetcode.com/problems/target-sum/))
 
 ---
+
+## B2_Day_19_20_UnboundedKnapsack.java
+**Unbounded Knapsack, LCS, and Related Problems:**
+1. Rod Cutting ([GFG](https://www.geeksforgeeks.org/problems/rod-cutting0840/1))
+2. Coin Change ([GFG](https://www.geeksforgeeks.org/problems/coin-change2448/1))
+3. Longest Common Subsequence ([GFG](https://www.geeksforgeeks.org/problems/longest-common-subsequence-1587115620/1))
+4. Longest Common Substring ([GFG](https://www.geeksforgeeks.org/problems/longest-common-substring1452/1))
+5. Print Longest Common Subsequence ([GFG](https://www.geeksforgeeks.org/problems/print-longest-common-subsequence/1))
+
+---
