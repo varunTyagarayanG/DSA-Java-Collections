@@ -1,6 +1,15 @@
 import java.util.Arrays;
 
-public class B2_Day_19_20_UnboundedKnapsack  {
+/*
+Unbounded Knapsack, LCS, and Related Problems Links (in order):
+1. Rod Cutting: https://www.geeksforgeeks.org/problems/rod-cutting0840/1
+2. Coin Change: https://www.geeksforgeeks.org/problems/coin-change2448/1
+3. Longest Common Subsequence: https://www.geeksforgeeks.org/problems/longest-common-subsequence-1587115620/1
+4. Longest Common Substring: https://www.geeksforgeeks.org/problems/longest-common-substring1452/1
+5. Print Longest Common Subsequence: https://www.geeksforgeeks.org/problems/print-longest-common-subsequence/1
+*/
+
+public class B2_Day_19_20_unbountedKS_sequences  {
 
     // Question 1 : ---------------------------------------------Start-------------------------------------------------
     // https://www.geeksforgeeks.org/problems/rod-cutting0840/1

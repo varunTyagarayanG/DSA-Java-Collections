@@ -1,3 +1,7 @@
+/*
+Linked List Basic Operations (No external links for these basic operations)
+*/
+
 class Node {
     int data;
     Node next;

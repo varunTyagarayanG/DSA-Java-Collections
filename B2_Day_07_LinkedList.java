@@ -215,8 +215,18 @@ public class B2_Day_07_LinkedList {
     }
 
     public static void main(String[] args) {
-        // Question 1 Test
-        System.out.println("=============== QUESTION 1: REMOVE DUPLICATES FROM SORTED LIST ===============");
+        /*
+        Linked List Interview Patterns Links (in order):
+        1. Merge Two Sorted Lists: https://leetcode.com/problems/merge-two-sorted-lists/
+        2. Add Two Numbers as Linked Lists: https://leetcode.com/problems/add-two-numbers/
+        3. Intersection Point in Y Shaped Linked Lists: https://www.geeksforgeeks.org/problems/intersection-point-in-y-shapped-linked-lists/1
+        4. Remove Nth Node From End: https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+        5. Detect and Remove Cycle: https://leetcode.com/problems/linked-list-cycle/
+        */
+
+        // Q1
+        System.out.println("=============== QUESTION 1: MERGE TWO SORTED LISTS ===============");
+        System.out.println("Link: https://leetcode.com/problems/merge-two-sorted-lists/");
         ListNode head1 = new ListNode(1, new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(3)))));
         printList(head1);
         head1 = deleteDuplicates(head1);
@@ -224,6 +234,7 @@ public class B2_Day_07_LinkedList {
 
         // Question 2 Test
         System.out.println("\n=============== QUESTION 2: REMOVE DUPLICATES FROM UNSORTED LIST ===============");
+        System.out.println("Link: https://www.naukri.com/code360/problems/remove-duplicates-from-unsorted-linked-list_1069331");
         ListNode head2 = new ListNode(1, new ListNode(3, new ListNode(2, new ListNode(3, new ListNode(2, new ListNode(4))))));
         printList(head2);
         head2 = removeDuplicatesUnsorted(head2);
@@ -231,6 +242,7 @@ public class B2_Day_07_LinkedList {
 
         // Question 3 Test
         System.out.println("\n=============== QUESTION 3: SORT 0s, 1s, 2s LINKED LIST ===============");
+        System.out.println("Link: https://www.geeksforgeeks.org/problems/sort-a-linked-list-of-0s-1s-and-2s/");
         ListNode head3 = new ListNode(2, new ListNode(1, new ListNode(0, new ListNode(1, new ListNode(2, new ListNode(0))))));
         printList(head3);
         head3 = sortZeroOneTwoList(head3);
@@ -238,6 +250,7 @@ public class B2_Day_07_LinkedList {
 
         // Question 4 Test
         System.out.println("\n=============== QUESTION 4: MERGE TWO SORTED LISTS ===============");
+        System.out.println("Link: https://leetcode.com/problems/merge-two-sorted-lists/");
         ListNode l1 = new ListNode(1, new ListNode(3, new ListNode(5)));
         ListNode l2 = new ListNode(2, new ListNode(4, new ListNode(6)));
         printList(l1);
@@ -247,6 +260,7 @@ public class B2_Day_07_LinkedList {
 
         // Question 5 Test
         System.out.println("\n=============== QUESTION 5: CHECK PALINDROME LINKED LIST ===============");
+        System.out.println("Link: https://www.geeksforgeeks.org/problems/check-if-a-linked-list-is-palindrome/");
         Node head5 = new Node(1);
         head5.next = new Node(2);
         head5.next.next = new Node(3);
@@ -257,6 +271,7 @@ public class B2_Day_07_LinkedList {
         System.out.println("Is Palindrome: " + isPalin);
         // Q6
         System.out.println("\n=============== QUESTION 6: ADD TWO NUMBERS REPRESENTED BY LINKED LISTS ===============");
+        System.out.println("Link: https://www.geeksforgeeks.org/problems/add-two-numbers-represented-by-linked-lists/1");
         Node num1 = new Node(2);
         num1.next = new Node(4);
         num1.next.next = new Node(3);  // Represents 342

@@ -1,5 +1,14 @@
 import java.util.*;
 
+/*
+Binary Tree Traversal and Views Links (in order):
+1. Boundary Traversal: https://www.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1
+2. Vertical Order Traversal: https://www.geeksforgeeks.org/problems/print-a-binary-tree-in-vertical-order/1
+3. Top View: https://www.geeksforgeeks.org/problems/top-view-of-binary-tree/1
+4. Bottom View: https://www.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1
+5. Left View: https://www.geeksforgeeks.org/problems/left-view-of-binary-tree/1
+*/
+
 class Node {
     int data;
     Node left, right;
@@ -212,22 +221,32 @@ public class B2_Day_13_BinaryTrees {
         root.right.right = new Node(25);
         System.out.println("\n=============== TREE STRUCTURE (2D VIEW) ===============");
         printTree(root);
+        // Q1
         System.out.println("=============== QUESTION 1: BOUNDARY TRAVERSAL ===============");
+        System.out.println("Link: https://www.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1");
         System.out.println("Boundary Traversal: " + boundaryTraversal(root));
 
+        // Q2
         System.out.println("\n=============== QUESTION 2: VERTICAL ORDER TRAVERSAL ===============");
+        System.out.println("Link: https://www.geeksforgeeks.org/problems/print-a-binary-tree-in-vertical-order/1");
         ArrayList<ArrayList<Integer>> vertical = verticalOrder(root);
         for (ArrayList<Integer> col : vertical) {
             System.out.println(col);
         }
 
+        // Q3
         System.out.println("\n=============== QUESTION 3: TOP VIEW ===============");
+        System.out.println("Link: https://www.geeksforgeeks.org/problems/top-view-of-binary-tree/1");
         System.out.println("Top View: " + topView(root));
 
+        // Q4
         System.out.println("\n=============== QUESTION 4: BOTTOM VIEW ===============");
+        System.out.println("Link: https://www.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1");
         System.out.println("Bottom View: " + bottomView(root));
         
-        System.out.println("=============== QUESTION 5: LEFT VIEW ===============");
+        // Q5
+        System.out.println("\n=============== QUESTION 5: LEFT VIEW ===============");
+        System.out.println("Link: https://www.geeksforgeeks.org/problems/left-view-of-binary-tree/1");
         ArrayList<Integer> view = leftView(root);
         System.out.println("Left View: " + view);
         

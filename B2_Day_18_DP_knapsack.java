@@ -1,10 +1,19 @@
-import java.util.Arrays;
-
+import java.util.*;
+/*
+Dynamic Programming: Knapsack and Related Problems Links (in order):
+1. 0/1 Knapsack: https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1
+2. Subset Sum: https://www.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1
+3. Equal Partition: https://www.geeksforgeeks.org/problems/partition-equal-subset-sum/0
+4. Perfect Sum Problem: https://www.geeksforgeeks.org/problems/perfect-sum-problem5633/1
+5. Minimum Subset Sum Difference: https://www.geeksforgeeks.org/problems/minimum-sum-partition3317/1
+6. Count Partitions With Given Difference: https://www.geeksforgeeks.org/problems/partitions-with-given-difference/1
+7. Target Sum: https://leetcode.com/problems/target-sum/
+*/
 public class B2_Day_18_DP_knapsack {
 
     // Question 1 : ---------------------------------------------Start-------------------------------------------------
+    // https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1
     // 0/1 Knapsack using Memoization (Top-Down DP)
-    // GFG: https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1
     static int knapsackMemo(int W, int val[], int wt[]) {
         int n = val.length;
         int[][] dp = new int[n][W + 1];
@@ -31,7 +40,6 @@ public class B2_Day_18_DP_knapsack {
     }
 
     // 0/1 Knapsack using Tabulation (Bottom-Up DP)
-    // GFG: https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1
     static int knapsackTab(int W, int val[], int wt[]) {
         int n = val.length;
         int[][] dp = new int[n + 1][W + 1];
@@ -60,8 +68,8 @@ public class B2_Day_18_DP_knapsack {
 
 
     // Question 2 : ---------------------------------------------Start-------------------------------------------------
+    // https://www.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1
     // Subset Sum using Memoization (Top-Down)
-    // GFG: https://www.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1
     static Boolean helperSubset(int[] arr, int sum, int idx, int currSum, Boolean[][] dp) {
         if (currSum == sum) return true;
         if (idx >= arr.length || currSum > sum) return false;
@@ -82,7 +90,6 @@ public class B2_Day_18_DP_knapsack {
     }
 
     // Subset Sum using Tabulation (Bottom-Up)
-    // GFG: https://www.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1
     static Boolean isSubsetSumTab(int arr[], int sum) {
         int n = arr.length;
         boolean[][] dp = new boolean[n + 1][sum + 1];
@@ -115,7 +122,6 @@ public class B2_Day_18_DP_knapsack {
     // Question 2 : ---------------------------------------------End---------------------------------------------------
     // Question 3 : ---------------------------------------------Start-------------------------------------------------
     // Equal Partition Problem using Memoization
-    // GFG: https://www.geeksforgeeks.org/problems/partition-equal-subset-sum/0
     static boolean helperEqualPartition(int[] arr, int idx, Boolean[][] dp, int target) {
         if (target == 0) return true;
         if (idx >= arr.length || target < 0) return false;
@@ -139,7 +145,6 @@ public class B2_Day_18_DP_knapsack {
     }
 
     // Equal Partition using Tabulation
-    // GFG: https://www.geeksforgeeks.org/problems/partition-equal-subset-sum/0
     static boolean equalPartitionTab(int arr[]) {
         int n = arr.length;
         int sum = Arrays.stream(arr).sum();
@@ -175,8 +180,6 @@ public class B2_Day_18_DP_knapsack {
     }
     // Question 3 : ---------------------------------------------End-------------------------------------------------
     // Question 4 : ---------------------------------------------Start-------------------------------------------------
-    // Perfect Sum Problem
-    // GFG: https://www.geeksforgeeks.org/problems/perfect-sum-problem5633/1
     // Method 1: Simple Recursion (No Memoization)
     static int countPerfectSumRecursive(int[] nums, int target) {
         return helperPerfectSumRec(nums, target, 0, 0);
@@ -257,8 +260,7 @@ public class B2_Day_18_DP_knapsack {
     }
     // Question 4 : ---------------------------------------------End-------------------------------------------------
     // Question 5 : ---------------------------------------------Start-------------------------------------------------
-    // Minimum Subset Sum Difference
-    // GFG: https://www.geeksforgeeks.org/problems/minimum-sum-partition3317/1
+    // https://www.geeksforgeeks.org/problems/minimum-sum-partition3317/1
     // ------------------------ Method 1 : Recursion ------------------------
     public static int minDifferenceRecursive(int[] arr) {
         return helper(arr, 0, 0, 0);
@@ -331,10 +333,9 @@ public class B2_Day_18_DP_knapsack {
 
         return ans;
     }
-    // Question 5 : ---------------------------------------------End---------------------------------------------------
+    // Question 5 : ---------------------------------------------End-------------------------------------------------
     // Question 6 : ---------------------------------------------Start-------------------------------------------------
     // Count Partitions With Given Difference
-    // GFG: https://www.geeksforgeeks.org/problems/partitions-with-given-difference/1
 
     // Method 1 : Pure Recursion
     static int helperPartitionDiff(int[] arr, int d, int idx, int sum1, int total) {
@@ -410,8 +411,7 @@ public class B2_Day_18_DP_knapsack {
     }
     // Question 6 : ---------------------------------------------End---------------------------------------------------
     // Question 7 : ---------------------------------------------Start-------------------------------------------------
-    // Target Sum Problem
-    // LeetCode: https://leetcode.com/problems/target-sum/
+    // https://leetcode.com/problems/target-sum/
 
     // Method 1 : Recursion (Without Memoization)
     static int helperTargetSumRec(int[] nums, int target, int sum, int idx) {
@@ -461,6 +461,7 @@ public class B2_Day_18_DP_knapsack {
 
         // ======================== Question 1 Test ========================
         System.out.println("=============== QUESTION 1: 0/1 KNAPSACK ===============");
+        System.out.println("Link: https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1");
         int[] val = {1, 2, 3, 4, 5};
         int[] wt = {1, 2, 3, 4, 5};
         int W = 5;
@@ -474,6 +475,7 @@ public class B2_Day_18_DP_knapsack {
 
        // ======================== Question 2 Test ========================
         System.out.println("\n=============== QUESTION 2: SUBSET SUM PROBLEM ===============");
+        System.out.println("Link: https://www.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1");
         int[] arr = {3, 34, 4, 12, 5, 2};
         int sum = 9;
 
@@ -485,6 +487,7 @@ public class B2_Day_18_DP_knapsack {
         
         // ======================== Question 3 Test ========================
         System.out.println("\n=============== QUESTION 3: EQUAL PARTITION ===============");
+        System.out.println("Link: https://www.geeksforgeeks.org/problems/partition-equal-subset-sum/0");
         int[] nums = {1, 5, 11, 5};
 
         boolean eqMemo = equalPartitionMemo(nums);
@@ -495,6 +498,7 @@ public class B2_Day_18_DP_knapsack {
         
         // ======================== Question 4 Test ========================
         System.out.println("\n=============== QUESTION 4: PERFECT SUM PROBLEM ===============");
+        System.out.println("Link: https://www.geeksforgeeks.org/problems/perfect-sum-problem5633/1");
         int[] nums4 = {1, 2, 3, 3};
         int target4 = 6;
 
@@ -506,21 +510,20 @@ public class B2_Day_18_DP_knapsack {
         System.out.println("Perfect Sum Count (Memoization): " + resMemo);
         System.out.println("Perfect Sum Count (Tabulation): " + resTab);
         
-        System.out.println("\n====== QUESTION 5: MINIMUM SUBSET SUM DIFFERENCE ======");
+        // Q5
+        System.out.println("\n=============== QUESTION 5: MINIMUM SUBSET SUM DIFFERENCE ===============");
+        System.out.println("Link: https://www.geeksforgeeks.org/problems/minimum-sum-partition3317/1");
         int[] arr5 = {1, 6, 7, 5};
-
         System.out.println("\nMethod 1 (Recursive):");
         System.out.println("Minimum Difference: " + minDifferenceRecursive(arr5));
-
         System.out.println("\nMethod 2 (Memoization):");
         System.out.println("Minimum Difference: " + minDifferenceMemo(arr5));
-
         System.out.println("\nMethod 3 (Tabulation):");
         System.out.println("Minimum Difference: " + minDifferenceTab(arr5));
         
         // ======================== Question 6 Test ========================
         System.out.println("\n=============== QUESTION 6: COUNT PARTITIONS WITH GIVEN DIFFERENCE ===============");
-
+        System.out.println("Link: https://www.geeksforgeeks.org/problems/partitions-with-given-difference/1");
         int[] arr6= {1, 1, 2, 3};
         int d = 1;
 
@@ -531,7 +534,10 @@ public class B2_Day_18_DP_knapsack {
         System.out.println("\nCount of Partitions (Recursion): " + resultRec6);
         System.out.println("Count of Partitions (Memoization): " + resultMemo6);
         System.out.println("Count of Partitions (Tabulation): " + resultTab6);
+
+        // Q7
         System.out.println("\n=============== QUESTION 7: TARGET SUM PROBLEM ===============");
+        System.out.println("Link: https://leetcode.com/problems/target-sum/");
         int[] nums7 = {1, 1, 1, 1, 1};
         int target7 = 3;
 

@@ -1,3 +1,16 @@
+/*
+Binary Tree Core & Advanced Questions Links (in order):
+1. Binary Tree Construction: (custom input)
+2. Preorder, Inorder, Postorder Traversal: https://leetcode.com/problems/binary-tree-inorder-traversal/
+3. Level Order Traversal: (standard traversal)
+4. Height/Depth of Binary Tree: (standard)
+5. Diameter of Binary Tree: (standard)
+6. Check for Balanced Binary Tree: (standard)
+7. Check if Two Trees are Same: https://leetcode.com/problems/same-tree/
+8. Check for Sum Tree: (standard)
+9. Zigzag Level Order Traversal: https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
+*/
+
 import java.util.*;
 
 class TreeNode {
@@ -187,13 +200,16 @@ public class B2_Day_11_12_BinaryTrees {
     // Question 7 : ---------------------------------------------End---------------------------------------------------
 
     public static void main(String[] args) {
-        System.out.println("=============== QUESTION 1: BUILD BINARY TREE ===============");
+        // Q1
+        System.out.println("=============== QUESTION 1: BINARY TREE CONSTRUCTION ===============");
+        System.out.println("Link: (custom input)");
 
         idx = 0;  // reset index before building
         TreeNode root = buildTree();
 
         // Traversals
         System.out.println("\nInorder Traversal:");
+        System.out.println("Link: https://leetcode.com/problems/binary-tree-inorder-traversal/");
         inorder(root);
 
         System.out.println("\nPreorder Traversal:");
@@ -203,33 +219,40 @@ public class B2_Day_11_12_BinaryTrees {
         postorder(root);
 
         System.out.println("\n\nLevel Order Traversal:");
+        System.out.println("Link: (standard traversal)");
         levelOrderTraversal(root);
 
         System.out.println("\n\nGraphical View of the Tree:");
         printGraph(root);
 
-        // Question 2: Depth/Height
-        System.out.println("\n=============== QUESTION 2: DEPTH OF BINARY TREE ===============");
+        // Q2
+        System.out.println("\n=============== QUESTION 2: HEIGHT/DEPTH OF BINARY TREE ===============");
+        System.out.println("Link: (standard)");
         System.out.println("Depth: " + depth(root));
 
-        // Question 3: Diameter
+        // Q3
         System.out.println("\n=============== QUESTION 3: DIAMETER OF BINARY TREE ===============");
+        System.out.println("Link: (standard)");
         System.out.println("Diameter: " + diameterOfBinaryTree(root));
 
-        // Question 4: Balanced Tree
-        System.out.println("\n=============== QUESTION 4: IS TREE BALANCED? ===============");
+        // Q4
+        System.out.println("\n=============== QUESTION 4: CHECK FOR BALANCED BINARY TREE ===============");
+        System.out.println("Link: (standard)");
         System.out.println("Balanced? " + isBalanced(root));
 
-        // Question 5: Same Tree
-        System.out.println("\n=============== QUESTION 5: ARE TWO TREES SAME? ===============");
+        // Q5
+        System.out.println("\n=============== QUESTION 5: CHECK IF TWO TREES ARE SAME ===============");
+        System.out.println("Link: https://leetcode.com/problems/same-tree/");
         System.out.println("Same Tree as Itself? " + isSameTree(root, root));
 
-        // Question 6: Sum Tree
-        System.out.println("\n=============== QUESTION 6: IS TREE A SUM TREE? ===============");
+        // Q6
+        System.out.println("\n=============== QUESTION 6: CHECK FOR SUM TREE ===============");
+        System.out.println("Link: (standard)");
         System.out.println("Sum Tree? " + isSumTree(root));
 
-        // Question 7: Zigzag Level Order
+        // Q7
         System.out.println("\n=============== QUESTION 7: ZIGZAG LEVEL ORDER TRAVERSAL ===============");
+        System.out.println("Link: https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/");
         List<List<Integer>> zigzag = zigzagLevelOrder(root);
         for (List<Integer> level : zigzag) {
             System.out.println(level);

@@ -79,7 +79,7 @@
 
 ---
 
-## B2_Day_19_20_UnboundedKnapsack.java
+## B2_Day_19_20_unbountedKS_sequences.java
 **Unbounded Knapsack, LCS, and Related Problems:**
 1. Rod Cutting ([GFG](https://www.geeksforgeeks.org/problems/rod-cutting0840/1))
 2. Coin Change ([GFG](https://www.geeksforgeeks.org/problems/coin-change2448/1))

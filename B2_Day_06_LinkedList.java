@@ -1,3 +1,12 @@
+/*
+Linked List Advanced Questions Links (in order):
+1. Reverse Linked List (Iterative): https://leetcode.com/problems/reverse-linked-list/
+2. Reverse Linked List (Recursive): https://leetcode.com/problems/reverse-linked-list/
+3. Reverse Nodes in K-Group: https://leetcode.com/problems/reverse-nodes-in-k-group/
+4. Find Middle of Linked List: https://leetcode.com/problems/middle-of-the-linked-list/
+5. Detect and Remove Loop: https://www.naukri.com/code360/problems/interview-shuriken-42-detect-and-remove-loop_241049
+*/
+
 class Node {
     int data;
     Node next;
@@ -132,9 +141,9 @@ public class B2_Day_06_LinkedList {
     }
 
     public static void main(String[] args) {
-
         // QUESTION 1a: ITERATIVE
         System.out.println("=============== QUESTION 1a: REVERSE LINKED LIST (ITERATIVE) ===============");
+        System.out.println("Link: https://leetcode.com/problems/reverse-linked-list/");
         Node head1a = new Node(1);
         head1a.next = new Node(2);
         head1a.next.next = new Node(3);
@@ -152,6 +161,7 @@ public class B2_Day_06_LinkedList {
 
         // QUESTION 1b: RECURSIVE
         System.out.println("\n=============== QUESTION 1b: REVERSE LINKED LIST (RECURSIVE) ===============");
+        System.out.println("Link: https://leetcode.com/problems/reverse-linked-list/");
         Node head1b = new Node(1);
         head1b.next = new Node(2);
         head1b.next.next = new Node(3);
@@ -169,6 +179,7 @@ public class B2_Day_06_LinkedList {
 
         // QUESTION 2: REVERSE K-GROUP
         System.out.println("\n=============== QUESTION 2: REVERSE NODES IN K-GROUP ===============");
+        System.out.println("Link: https://leetcode.com/problems/reverse-nodes-in-k-group/");
         Node head2 = new Node(1);
         head2.next = new Node(2);
         head2.next.next = new Node(3);
@@ -186,6 +197,7 @@ public class B2_Day_06_LinkedList {
 
         // QUESTION 3: FIND MIDDLE
         System.out.println("\n=============== QUESTION 3: FIND MIDDLE OF LINKED LIST ===============");
+        System.out.println("Link: https://leetcode.com/problems/middle-of-the-linked-list/");
         Node head3 = new Node(1);
         head3.next = new Node(2);
         head3.next.next = new Node(3);
@@ -201,6 +213,7 @@ public class B2_Day_06_LinkedList {
 
         // QUESTION 4: DETECT AND REMOVE LOOP
         System.out.println("\n=============== QUESTION 4: DETECT AND REMOVE LOOP ===============");
+        System.out.println("Link: https://www.naukri.com/code360/problems/interview-shuriken-42-detect-and-remove-loop_241049");
         Node head4 = new Node(1);
         head4.next = new Node(2);
         head4.next.next = new Node(3);
