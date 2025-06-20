@@ -88,3 +88,10 @@
 5. Print Longest Common Subsequence ([GFG](https://www.geeksforgeeks.org/problems/print-longest-common-subsequence/1))
 
 ---
+
+## B2_Day_24_Graphs_CycleDetection.java
+**Graph Cycle Detection Problems:**
+1. Detect Cycle in an Undirected Graph (BFS) ([GFG](https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1))
+2. Detect Cycle in a Directed Graph (DFS) ([GFG](https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1))
+
+---
