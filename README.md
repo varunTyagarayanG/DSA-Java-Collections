@@ -89,6 +89,15 @@
 
 ---
 
+## B2_Day_21_DP_on_Sequences.java
+**DP on Sequences:**
+1. Shortest Common Supersequence ([LeetCode](https://leetcode.com/problems/shortest-common-supersequence/))
+2. Minimum Deletions to Make Strings Equal ([LeetCode](https://leetcode.com/problems/delete-operation-for-two-strings/))
+3. Longest Palindromic Subsequence ([LeetCode](https://leetcode.com/problems/longest-palindromic-subsequence/))
+4. Minimum Deletions to Make a String Palindrome ([GFG](https://www.geeksforgeeks.org/problems/minimum-deletions/0/))
+
+---
+
 ## B2_Day_24_Graphs_CycleDetection.java
 **Graph Cycle Detection Problems:**
 1. Detect Cycle in an Undirected Graph (BFS) ([GFG](https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1))
