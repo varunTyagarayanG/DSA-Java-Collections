@@ -98,7 +98,18 @@
 
 ---
 
-## B2_Day_24_Graphs_CycleDetection.java
+## B2_Day_23_24_Graphs_BFS_DFS.java
+**Graph Traversal and Related Problems:**
+1. DFS Traversal ([GFG](https://www.geeksforgeeks.org/graph-dfs/))
+2. BFS Traversal ([GFG](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/))
+3. Convert Adjacency Matrix to Adjacency List ([GFG](https://www.geeksforgeeks.org/graph-representations-using-adjacency-list-and-matrix/))
+4. Minimum Steps by Knight ([GFG](https://www.geeksforgeeks.org/problems/steps-by-knight5927/1))
+5. Path Exists in Graph (DFS) ([LeetCode](https://leetcode.com/problems/find-if-path-exists-in-graph/))
+6. Reorder Routes to Make All Paths Lead to the City Zero ([LeetCode](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/description/))
+
+---
+
+## B2_Day_25_Graphs_CycleDetection.java
 **Graph Cycle Detection Problems:**
 1. Detect Cycle in an Undirected Graph (BFS) ([GFG](https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1))
 2. Detect Cycle in a Directed Graph (DFS) ([GFG](https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1))

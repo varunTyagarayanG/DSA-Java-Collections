@@ -6,7 +6,7 @@
 
 import java.util.*;
 
-public class B2_Day_24_Graphs_CycleDetection {
+public class B2_Day_25_Graphs_CycleDetection {
 
     // ====================== Methods for Question 1 ===========================
     // BFS method for cycle detection in an undirected graph
