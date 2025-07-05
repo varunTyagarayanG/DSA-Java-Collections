@@ -10,7 +10,7 @@ Questions in this file:
 
 import java.util.*;
 
-public class B2_Day_1_Arrays  {
+public class B2_Day_01_Arrays  {
 
     // ========================= Question 1: Intersection of Two Arrays =============================
     public static int[] intersection(int[] nums1, int[] nums2) {

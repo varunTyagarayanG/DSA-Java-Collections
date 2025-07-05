@@ -16,7 +16,7 @@
 
 import java.util.*;
 
-public class B2_Day_2_Arrays  {
+public class B2_Day_02_Arrays  {
 
     // Question 1 : ---------------------------------------------Start-------------------------------------------------
     static int countFreq(int[] arr, int target) {

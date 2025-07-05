@@ -8,7 +8,7 @@
 
 import java.util.*;
 
-public class B2_Day_3_Strings  {
+public class B2_Day_03_Strings  {
 
     // Question 1 : ---------------------------------------------Start-------------------------------------------------
     static ArrayList<Integer> maxOfSubarrays(int[] arr, int k) {
