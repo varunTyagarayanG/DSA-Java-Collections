@@ -72,6 +72,16 @@
 
 ---
 
+## B2_Day_08_LinkedList_Stack.java
+**Linked List & Stack Problems:**
+1. Sort Linked List using Merge Sort ([LeetCode](https://leetcode.com/problems/sort-list/))
+2. Remove Duplicates from Sorted List II ([LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/))
+3. Flattening a Linked List ([GFG](https://www.geeksforgeeks.org/problems/flattening-a-linked-list/1))
+4. Next Greater Element (Stack) ([GFG](https://www.geeksforgeeks.org/problems/next-larger-element-1587115620/1))
+5. Smallest Number on the Left (Stack) ([GFG](https://www.geeksforgeeks.org/problems/smallest-number-on-left3403/1))
+
+---
+
 ## B2_Day_11_12_BinaryTrees.java
 
 **Day 11: Binary Tree Core Concepts and Traversals**
