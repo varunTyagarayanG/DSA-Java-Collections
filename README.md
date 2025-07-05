@@ -1,5 +1,36 @@
 ﻿# topicWiseImpQue_DSA
 
+## B2_Day_1_Arrays.java
+**Array Problems:**
+1. Intersection of Two Arrays ([LeetCode](https://leetcode.com/problems/intersection-of-two-arrays/))
+2. Subarray with Given Sum ([GFG](https://www.geeksforgeeks.org/problems/subarray-with-given-sum/0))
+3. Merge Sorted Array ([LeetCode](https://leetcode.com/problems/merge-sorted-array/))
+4. Maximum Subarray (Kadane's Algorithm) ([LeetCode](https://leetcode.com/problems/maximum-subarray/))
+5. Peak Index in a Mountain Array ([LeetCode](https://leetcode.com/problems/peak-index-in-a-mountain-array/))
+6. Find First and Last Position of Element in Sorted Array ([LeetCode](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/))
+
+---
+
+## B2_Day_2_Arrays.java
+**Array & Sliding Window Problems:**
+1. Count frequency of a target number in a sorted array ([GFG](https://www.geeksforgeeks.org/problems/number-of-occurrence2259/1))
+2. Search in Rotated Sorted Array ([LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/1685820873/))
+3. Allocate Minimum Number of Pages ([GFG](https://www.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1))
+4. Painter's Partition Problem ([GFG](https://www.geeksforgeeks.org/problems/the-painters-partition-problem1535/1))
+5. Max Sum Subarray of Size K ([GFG](https://www.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1))
+6. First Negative Integer in Every Window of Size K ([GFG](https://www.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1))
+7. Count Occurrences of Anagrams ([GFG](https://www.geeksforgeeks.org/problems/count-occurences-of-anagrams5839/1))
+
+---
+
+## B2_Day_3_Strings.java
+**String & Sliding Window Problems:**
+1. Maximum of All Subarrays of Size K ([GFG](https://www.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k3101/1))
+2. Longest K Unique Characters Substring ([GFG](https://www.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1))
+3. Longest Substring Without Repeating Characters ([LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/submissions/1686877068/))
+
+---
+
 ## B2_Day_4_Recurssion.java
 **Recursion Questions Covered:**
 1. Delete Middle Element of Stack ([GFG](https://www.geeksforgeeks.org/delete-middle-element-stack/))
