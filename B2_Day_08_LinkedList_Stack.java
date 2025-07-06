@@ -1,3 +1,7 @@
+import java.util.*;
+
+public class B2_Day_08_LinkedList_Stack {
+
     // ========================= Question List =============================
     // Question 1: Sort Linked List using Merge Sort
     // 🔗 https://leetcode.com/problems/sort-list/
@@ -10,9 +14,7 @@
     // Question 5: Smallest Number on the Left (Topic: Stack)
     // 🔗 https://www.geeksforgeeks.org/problems/smallest-number-on-left3403/1
 
-import java.util.* ;  
-
-public class B2_Day_08_LinkedList_Stack {
+    // ========================= Linked List Node Class =============================
     public static class ListNode {
         int val;
         ListNode next;
@@ -21,6 +23,7 @@ public class B2_Day_08_LinkedList_Stack {
         ListNode(int val, ListNode next) { this.val = val; this.next = next; }
     }
 
+    // ========================= Question 1 =============================
     public static ListNode getMid(ListNode head) {
         ListNode slow = head;
         ListNode fast = head.next;
@@ -80,6 +83,7 @@ public class B2_Day_08_LinkedList_Stack {
         return merge(left, right);
     }
 
+    // ========================= Question 2 =============================
     public static ListNode deleteDuplicates(ListNode head) {
         ListNode dummy = new ListNode(-1);
         dummy.next = head;
@@ -102,6 +106,7 @@ public class B2_Day_08_LinkedList_Stack {
         return dummy.next;
     }
 
+    // ========================= Question 3 =============================
     static class Node {
         int data;
         Node next;
@@ -142,6 +147,7 @@ public class B2_Day_08_LinkedList_Stack {
         return root;
     }
 
+    // ========================= Question 4 =============================
     public static ArrayList<Integer> nextLargerElement(int[] arr) {
         int n = arr.length;
         Stack<Integer> st = new Stack<>();
@@ -163,6 +169,7 @@ public class B2_Day_08_LinkedList_Stack {
         return ans;
     }
 
+    // ========================= Question 5 =============================
     public static int[] leftSmaller(int[] arr) {
         int n = arr.length;
         Stack<Integer> st = new Stack<>();
@@ -180,6 +187,7 @@ public class B2_Day_08_LinkedList_Stack {
         return ans;
     }
 
+    // ========================= Main Method =============================
     public static void main(String[] args) {
         System.out.println("=============== QUESTION 1: Sort Linked List using Merge Sort ===============");
         ListNode head = new ListNode(4, new ListNode(2, new ListNode(1, new ListNode(3))));
