@@ -82,6 +82,22 @@
 
 ---
 
+## B2_Day_09_Stack.java
+**Stack Problems:**
+1. Stock Span Problem ([GFG](https://www.geeksforgeeks.org/problems/stock-span-problem-1587115621/1))
+2. Maximum Rectangular Area in a Histogram ([GFG](https://www.geeksforgeeks.org/problems/maximum-rectangular-area-in-a-histogram-1587115620/1))
+3. Maximal Rectangle ([LeetCode](https://leetcode.com/problems/maximal-rectangle/))
+
+---
+
+## B2_Day_10_Stack.java
+**Stack & Miscellaneous Problems:**
+1. The Celebrity Problem ([GFG](https://www.geeksforgeeks.org/problems/the-celebrity-problem/1))
+2. Trapping Rain Water ([LeetCode](https://leetcode.com/problems/trapping-rain-water/submissions/1230659371/))
+3. First Non-Repeating Character in a Stream ([GFG](https://www.geeksforgeeks.org/problems/first-non-repeating-character-in-a-stream/0))
+
+---
+
 ## B2_Day_11_12_BinaryTrees.java
 
 **Day 11: Binary Tree Core Concepts and Traversals**
