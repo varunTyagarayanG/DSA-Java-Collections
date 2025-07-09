@@ -12,9 +12,6 @@
 
 ---
 
-
----
-
 ## LearnJavaCollections (Java Collections Demos)
 
 This folder contains hands-on Java code examples and explanations for core Java Collections Framework interfaces and classes. Each file demonstrates usage, methods, and best practices for a specific collection type.
