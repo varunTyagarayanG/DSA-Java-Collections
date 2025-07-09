@@ -1,6 +1,6 @@
 ﻿# topicWiseImpQue_DSA
 
-## B2_Day_1_Arrays.java
+## B2_Day_01_Arrays.java
 **Array Problems:**
 1. Intersection of Two Arrays ([LeetCode](https://leetcode.com/problems/intersection-of-two-arrays/))
 2. Subarray with Given Sum ([GFG](https://www.geeksforgeeks.org/problems/subarray-with-given-sum/0))
@@ -11,7 +11,7 @@
 
 ---
 
-## B2_Day_2_Arrays.java
+## B2_Day_02_Arrays.java
 **Array & Sliding Window Problems:**
 1. Count frequency of a target number in a sorted array ([GFG](https://www.geeksforgeeks.org/problems/number-of-occurrence2259/1))
 2. Search in Rotated Sorted Array ([LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/1685820873/))
@@ -23,7 +23,7 @@
 
 ---
 
-## B2_Day_3_Strings.java
+## B2_Day_03_Strings.java
 **String & Sliding Window Problems:**
 1. Maximum of All Subarrays of Size K ([GFG](https://www.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k3101/1))
 2. Longest K Unique Characters Substring ([GFG](https://www.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1))
@@ -31,7 +31,7 @@
 
 ---
 
-## B2_Day_4_Recurssion.java
+## B2_Day_04_Recurssion.java
 **Recursion Questions Covered:**
 1. Delete Middle Element of Stack ([GFG](https://www.geeksforgeeks.org/delete-middle-element-stack/))
 2. Reverse a Stack ([GFG](https://www.geeksforgeeks.org/problems/reverse-a-stack/1))
@@ -46,13 +46,13 @@
 
 ---
 
-## B2_Day_5_LinkedList.java
+## B2_Day_05_LinkedList.java
 **Linked List Basic Operations:**
 (No external links listed)
 
 ---
 
-## B2_Day_6_LinkedList.java
+## B2_Day_06_LinkedList.java
 **Linked List Advanced Questions:**
 1. Reverse Linked List (Iterative) ([LeetCode](https://leetcode.com/problems/reverse-linked-list/))
 2. Reverse Linked List (Recursive) ([LeetCode](https://leetcode.com/problems/reverse-linked-list/))
@@ -62,7 +62,7 @@
 
 ---
 
-## B2_Day_7_LinkedList.java
+## B2_Day_07_LinkedList.java
 **Linked List Interview Patterns:**
 1. Merge Two Sorted Lists ([LeetCode](https://leetcode.com/problems/merge-two-sorted-lists/))
 2. Add Two Numbers as Linked Lists ([LeetCode](https://leetcode.com/problems/add-two-numbers/))
