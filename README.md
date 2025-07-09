@@ -7,18 +7,18 @@
 This folder contains hands-on Java code examples and explanations for core Java Collections Framework interfaces and classes. Each file demonstrates usage, methods, and best practices for a specific collection type.
 
 **Files and Topics:**
-- `ArrayList_Learn.java`: ArrayList basics, methods, and iteration
-- `LinkedList_Learn.java`: LinkedList as List, Queue, and Deque
-- `Queue_Learn.java`: Queue interface, LinkedList as Queue, queue operations
-- `Deque_Learn.java`: Deque interface, ArrayDeque, double-ended queue operations
-- `PriorityQueue_Learn.java`: PriorityQueue usage, min/max heap, custom comparators
-- `HashSet_Learn.java`: HashSet basics, uniqueness, set operations
-- `LinkedHashSet_Learn.java`: LinkedHashSet, order-preserving set
-- `HashMap_Learn.java`: HashMap key-value pairs, iteration, methods
-- `LinkedHashMap_Learn.java`: LinkedHashMap, order-preserving map
-- `TreeSet_Learn.java`: TreeSet, sorted set, custom comparators
-- `TreeMap_Learn.java`: TreeMap, sorted map, navigation methods
-- `CollectionsAlgorithms_Learn.java`: Collections utility methods (sort, reverse, shuffle, etc.)
+- [`ArrayList_Learn.java`](LearnJavaCollections/ArrayList_Learn.java): ArrayList basics, methods, and iteration
+- [`LinkedList_Learn.java`](LearnJavaCollections/LinkedList_Learn.java): LinkedList as List, Queue, and Deque
+- [`Queue_Learn.java`](LearnJavaCollections/Queue_Learn.java): Queue interface, LinkedList as Queue, queue operations
+- [`Deque_Learn.java`](LearnJavaCollections/Deque_Learn.java): Deque interface, ArrayDeque, double-ended queue operations
+- [`PriorityQueue_Learn.java`](LearnJavaCollections/PriorityQueue_Learn.java): PriorityQueue usage, min/max heap, custom comparators
+- [`HashSet_Learn.java`](LearnJavaCollections/HashSet_Learn.java): HashSet basics, uniqueness, set operations
+- [`LinkedHashSet_Learn.java`](LearnJavaCollections/LinkedHashSet_Learn.java): LinkedHashSet, order-preserving set
+- [`HashMap_Learn.java`](LearnJavaCollections/HashMap_Learn.java): HashMap key-value pairs, iteration, methods
+- [`LinkedHashMap_Learn.java`](LearnJavaCollections/LinkedHashMap_Learn.java): LinkedHashMap, order-preserving map
+- [`TreeSet_Learn.java`](LearnJavaCollections/TreeSet_Learn.java): TreeSet, sorted set, custom comparators
+- [`TreeMap_Learn.java`](LearnJavaCollections/TreeMap_Learn.java): TreeMap, sorted map, navigation methods
+- [`CollectionsAlgorithms_Learn.java`](LearnJavaCollections/CollectionsAlgorithms_Learn.java): Collections utility methods (sort, reverse, shuffle, etc.)
 
 Each file is self-contained and runnable, with code comments and output examples for learning and quick reference.
 
