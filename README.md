@@ -1,4 +1,4 @@
-<h1 align="center">🚀 DSA With Java Collections</h1>
+<h1 align="center"> DSA With Java Collections</h1>
 
 <p align="center">
   A hands-on guide to mastering <strong>Data Structures & Algorithms</strong> using the power of the <strong>Java Collections Framework</strong>.
