@@ -166,6 +166,16 @@ Below is a day-wise, file-wise index of all DSA problems solved, with direct lin
 
 ---
 
+### B2_Day_17_PriorityQueue.java
+**Priority Queue Problems:**
+1. [Find K Closest Elements (LeetCode)](https://leetcode.com/problems/find-k-closest-elements/)
+2. [Top K Frequent Elements (LeetCode)](https://leetcode.com/problems/top-k-frequent-elements/)
+3. [Sort Array by Increasing Frequency (LeetCode)](https://leetcode.com/problems/sort-array-by-increasing-frequency/)
+4. [K Closest Points to Origin (LeetCode)](https://leetcode.com/problems/k-closest-points-to-origin/)
+5. [Minimum Cost of Ropes (GFG)](https://www.geeksforgeeks.org/problems/minimum-cost-of-ropes-1587115620/1)
+
+---
+
 ### B2_Day_18_DP_knapsack.java
 **Dynamic Programming: Knapsack and Related Problems:**
 1. [0/1 Knapsack (GFG)](https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1)
