@@ -1,15 +1,14 @@
-
-    // ========================= Question List =============================
-    // Question 1: The Celebrity Problem
-    // 🔗 https://www.geeksforgeeks.org/problems/the-celebrity-problem/1
-    // Question 2: Trapping Rain Water
-    // 🔗 https://leetcode.com/problems/trapping-rain-water/submissions/1230659371/
-    // Question 3: First Non-Repeating Character in a Stream
-    // 🔗 https://www.geeksforgeeks.org/problems/first-non-repeating-character-in-a-stream/0
+/*
+ * Stack & Miscellaneous Problems:
+ * 1. The Celebrity Problem
+ *    GFG: https://www.geeksforgeeks.org/problems/the-celebrity-problem/1
+ * 2. Trapping Rain Water
+ *    LeetCode: https://leetcode.com/problems/trapping-rain-water/
+ * 3. First Non-Repeating Character in a Stream
+ *    GFG: https://www.geeksforgeeks.org/problems/first-non-repeating-character-in-a-stream/0
+ */
 
 import java.util.*;
-
-
 
 
 public class B2_Day_10_Stack {
@@ -104,19 +103,25 @@ public class B2_Day_10_Stack {
     // ========================= Main Method =============================
     public static void main(String[] args) {
         System.out.println("=============== QUESTION 1: The Celebrity Problem ===============");
+        System.out.println("Link: https://www.geeksforgeeks.org/problems/the-celebrity-problem/1");
         int[][] mat = {
             {0, 1, 0},
             {0, 0, 0},
             {0, 1, 0}
         };
         System.out.println(celebrity(mat));
+        // Add your test/demo code here
 
-        System.out.println("=============== QUESTION 2: Trapping Rain Water ===============");
+        System.out.println("\n=============== QUESTION 2: Trapping Rain Water ===============");
+        System.out.println("Link: https://leetcode.com/problems/trapping-rain-water/");
         int[] height = {0,1,0,2,1,0,1,3,2,1,2,1};
         System.out.println(trap(height));
+        // Add your test/demo code here
 
-        System.out.println("=============== QUESTION 3: First Non-Repeating Character in a Stream ===============");
+        System.out.println("\n=============== QUESTION 3: First Non-Repeating Character in a Stream ===============");
+        System.out.println("Link: https://www.geeksforgeeks.org/problems/first-non-repeating-character-in-a-stream/0");
         String stream = "aabc";
         System.out.println(firstNonRepeating(stream));
+        // Add your test/demo code here
     }
 }

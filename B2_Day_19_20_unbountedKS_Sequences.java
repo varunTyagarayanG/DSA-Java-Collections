@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 /*
 Unbounded Knapsack, LCS, and Related Problems Links (in order):
 1. Rod Cutting: https://www.geeksforgeeks.org/problems/rod-cutting0840/1
@@ -8,6 +6,8 @@ Unbounded Knapsack, LCS, and Related Problems Links (in order):
 4. Longest Common Substring: https://www.geeksforgeeks.org/problems/longest-common-substring1452/1
 5. Print Longest Common Subsequence: https://www.geeksforgeeks.org/problems/print-longest-common-subsequence/1
 */
+
+import java.util.Arrays;
 
 public class B2_Day_19_20_unbountedKS_sequences  {
 
@@ -193,28 +193,33 @@ public class B2_Day_19_20_unbountedKS_sequences  {
 
         // ======================== Question 1 Test ========================
         System.out.println("=============== QUESTION 1: ROD CUTTING ===============");
+        System.out.println("Link: https://www.geeksforgeeks.org/problems/rod-cutting0840/1");
         int[] price = {1, 5, 8, 9, 10};
         System.out.println("Max Rod Cut Value: " + cutRodTab(price));
 
         // ======================== Question 2 Test ========================
         System.out.println("\n=============== QUESTION 2: COIN CHANGE ===============");
+        System.out.println("Link: https://www.geeksforgeeks.org/problems/coin-change2448/1");
         int[] coins = {1, 2, 5};
         int amount = 11;
         System.out.println("Min Coins Needed: " + coinChangeTab(coins, amount));
 
         // ======================== Question 3 Test ========================
         System.out.println("\n=============== QUESTION 3: LONGEST COMMON SUBSEQUENCE ===============");
+        System.out.println("Link: https://www.geeksforgeeks.org/problems/longest-common-subsequence-1587115620/1");
         String a = "abcde", b = "ace";
         System.out.println("LCS Length (Memoization): " + lcsMemo(a, b));
         System.out.println("LCS Length (Tabulation): " + lcsTab(a, b));
 
         // ======================== Question 4 Test ========================
         System.out.println("\n=============== QUESTION 4: LONGEST COMMON SUBSTRING ===============");
+        System.out.println("Link: https://www.geeksforgeeks.org/problems/longest-common-substring1452/1");
         String s1 = "abcde", s2 = "abfce";
         System.out.println("Length of Longest Common Substring: " + longestCommonSubstring(s1, s2));
         
          // ======================== Question 5 Test ========================
         System.out.println("=============== QUESTION 5: PRINT LCS STRING ===============");
+        System.out.println("Link: https://www.geeksforgeeks.org/problems/print-longest-common-subsequence/1");
         String x = "AGGTAB";
         String y = "GXTXAYB";
         System.out.println("LCS String: " + printLCS(x, y));

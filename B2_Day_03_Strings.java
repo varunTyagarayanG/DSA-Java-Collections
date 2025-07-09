@@ -1,10 +1,12 @@
-// ========================= Question List =============================
-// Question 1: Maximum of All Subarrays of Size K
-// https://www.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k3101/1
-// Question 2: Longest K Unique Characters Substring
-// https://www.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1
-// Question 3: Longest Substring Without Repeating Characters
-// https://leetcode.com/problems/longest-substring-without-repeating-characters/submissions/1686877068/
+/*
+ * DSA Problems Covered in this File:
+ * 1. Maximum of All Subarrays of Size K
+ *    GFG: https://www.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k3101/1
+ * 2. Longest K Unique Characters Substring
+ *    GFG: https://www.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1
+ * 3. Longest Substring Without Repeating Characters
+ *    LeetCode: https://leetcode.com/problems/longest-substring-without-repeating-characters/submissions/1686877068/
+ */
 
 import java.util.*;
 
@@ -104,18 +106,21 @@ public class B2_Day_03_Strings  {
 
     public static void main(String[] args) {
         System.out.println("=============== QUESTION 1: Maximum of All Subarrays of Size K ===============");
+        System.out.println("Link: https://www.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k3101/1");
         int[] nums = {1, 3, -1, -3, 5, 3, 6, 7};
         int k = 3;
         ArrayList<Integer> result = maxOfSubarrays(nums, k);
         System.out.println("Max of each window: " + result);
 
         System.out.println("\n=============== QUESTION 2: Longest K Unique Characters Substring ===============");
+        System.out.println("Link: https://www.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1");
         String s = "aabacbebebe";
         int k2 = 3;
         int maxLen = longestKSubstr(s, k2);
         System.out.println("Longest substring length with " + k2 + " unique characters: " + maxLen);
 
         System.out.println("\n=============== QUESTION 3: Longest Substring Without Repeating Characters ===============");
+        System.out.println("Link: https://leetcode.com/problems/longest-substring-without-repeating-characters/submissions/1686877068/");
         String test = "abcabcbb";
         int length = lengthOfLongestSubstring(test);
         System.out.println("Length of longest substring without repeating characters: " + length);

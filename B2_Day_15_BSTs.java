@@ -1,3 +1,13 @@
+/*
+ * Binary Search Trees (BSTs) Links (in order):
+ * 1. Insert a Node in BST: https://leetcode.com/problems/insert-into-a-binary-search-tree/
+ * 2. Delete a Node in BST: https://leetcode.com/problems/delete-node-in-a-bst/
+ * 3. Inorder, Preorder, Postorder Traversals of BST: https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/
+ * 4. Validate if it is a BST: https://leetcode.com/problems/validate-binary-search-tree/
+ * 5. Kth Smallest Element in BST: https://leetcode.com/problems/kth-smallest-element-in-a-bst/
+ * 6. Kth Largest Element in BST: https://www.geeksforgeeks.org/kth-largest-element-in-bst-when-modification-to-bst-is-not-allowed/
+ */
+
 import java.util.*;
 
 public class B2_Day_15_BSTs {

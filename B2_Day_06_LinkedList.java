@@ -1,10 +1,10 @@
 /*
-Linked List Advanced Questions Links (in order):
-1. Reverse Linked List (Iterative): https://leetcode.com/problems/reverse-linked-list/
-2. Reverse Linked List (Recursive): https://leetcode.com/problems/reverse-linked-list/
-3. Reverse Nodes in K-Group: https://leetcode.com/problems/reverse-nodes-in-k-group/
-4. Find Middle of Linked List: https://leetcode.com/problems/middle-of-the-linked-list/
-5. Detect and Remove Loop: https://www.naukri.com/code360/problems/interview-shuriken-42-detect-and-remove-loop_241049
+ * Linked List Advanced Questions Links (in order):
+ * 1. Reverse Linked List (Iterative): https://leetcode.com/problems/reverse-linked-list/
+ * 2. Reverse Linked List (Recursive): https://leetcode.com/problems/reverse-linked-list/
+ * 3. Reverse Nodes in K-Group: https://leetcode.com/problems/reverse-nodes-in-k-group/
+ * 4. Find Middle of Linked List: https://leetcode.com/problems/middle-of-the-linked-list/
+ * 5. Detect and Remove Loop: https://www.naukri.com/code360/problems/interview-shuriken-42-detect-and-remove-loop_241049
 */
 
 class Node {
@@ -150,12 +150,9 @@ public class B2_Day_06_LinkedList {
         head1a.next.next.next = new Node(4);
         head1a.next.next.next.next = new Node(5);
         head1a.next.next.next.next.next = new Node(6);
-
         System.out.println("Original List:");
         printList(head1a);
-
         head1a = reverseListIterative(head1a);
-
         System.out.println("Reversed List (Iterative):");
         printList(head1a);
 
@@ -168,12 +165,9 @@ public class B2_Day_06_LinkedList {
         head1b.next.next.next = new Node(4);
         head1b.next.next.next.next = new Node(5);
         head1b.next.next.next.next.next = new Node(6);
-
         System.out.println("Original List:");
         printList(head1b);
-
         head1b = reverseListRecursive(head1b);
-
         System.out.println("Reversed List (Recursive):");
         printList(head1b);
 
@@ -185,13 +179,10 @@ public class B2_Day_06_LinkedList {
         head2.next.next = new Node(3);
         head2.next.next.next = new Node(4);
         head2.next.next.next.next = new Node(5);
-
         System.out.println("Original List:");
         printList(head2);
-
         int k = 2;
         head2 = reverseKGroup(head2, k);
-
         System.out.println("Reversed in K-Group (k = " + k + "):");
         printList(head2);
 
@@ -204,10 +195,8 @@ public class B2_Day_06_LinkedList {
         head3.next.next.next = new Node(4);
         head3.next.next.next.next = new Node(5);
         head3.next.next.next.next.next = new Node(6);
-
         System.out.println("Linked List:");
         printList(head3);
-
         Node middle = findMiddle(head3);
         System.out.println("Middle Node Value: " + middle.data);
 
@@ -219,13 +208,10 @@ public class B2_Day_06_LinkedList {
         head4.next.next = new Node(3);
         head4.next.next.next = new Node(4);
         head4.next.next.next.next = new Node(5);
-
         // Creating loop: 5 -> 3
         head4.next.next.next.next.next = head4.next.next;
-
         System.out.println("Loop created manually. Running detectAndRemoveLoop...");
         detectAndRemoveLoop(head4);
-
         System.out.println("After removing loop:");
         printList(head4);
     }

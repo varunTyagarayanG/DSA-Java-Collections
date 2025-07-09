@@ -1,18 +1,20 @@
+/*
+ * Linked List & Stack Problems:
+ * 1. Sort Linked List using Merge Sort
+ *    LeetCode: https://leetcode.com/problems/sort-list/
+ * 2. Remove Duplicates from Sorted List II
+ *    LeetCode: https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/
+ * 3. Flattening a Linked List
+ *    GFG: https://www.geeksforgeeks.org/problems/flattening-a-linked-list/1
+ * 4. Next Greater Element (Topic: Stack)
+ *    GFG: https://www.geeksforgeeks.org/problems/next-larger-element-1587115620/1
+ * 5. Smallest Number on the Left (Topic: Stack)
+ *    GFG: https://www.geeksforgeeks.org/problems/smallest-number-on-left3403/1
+ */
+
 import java.util.*;
 
 public class B2_Day_08_LinkedList_Stack {
-
-    // ========================= Question List =============================
-    // Question 1: Sort Linked List using Merge Sort
-    // 🔗 https://leetcode.com/problems/sort-list/
-    // Question 2: Remove Duplicates from Sorted List II
-    // 🔗 https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/
-    // Question 3: Flattening a Linked List
-    // 🔗 https://www.geeksforgeeks.org/problems/flattening-a-linked-list/1
-    // Question 4: Next Greater Element (Topic: Stack)
-    // 🔗 https://www.geeksforgeeks.org/problems/next-larger-element-1587115620/1
-    // Question 5: Smallest Number on the Left (Topic: Stack)
-    // 🔗 https://www.geeksforgeeks.org/problems/smallest-number-on-left3403/1
 
     // ========================= Linked List Node Class =============================
     public static class ListNode {
@@ -190,6 +192,7 @@ public class B2_Day_08_LinkedList_Stack {
     // ========================= Main Method =============================
     public static void main(String[] args) {
         System.out.println("=============== QUESTION 1: Sort Linked List using Merge Sort ===============");
+        System.out.println("Link: https://leetcode.com/problems/sort-list/");
         ListNode head = new ListNode(4, new ListNode(2, new ListNode(1, new ListNode(3))));
         ListNode sorted = sortList(head);
         while (sorted != null) {
@@ -199,6 +202,7 @@ public class B2_Day_08_LinkedList_Stack {
         System.out.println("null");
 
         System.out.println("\n=============== QUESTION 2: Remove Duplicates from Sorted List II ===============");
+        System.out.println("Link: https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/");
         ListNode head2 = new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(3, new ListNode(4, new ListNode(4, new ListNode(5)))))));
         ListNode result = deleteDuplicates(head2);
         while (result != null) {
@@ -208,6 +212,7 @@ public class B2_Day_08_LinkedList_Stack {
         System.out.println("null");
 
         System.out.println("\n=============== QUESTION 3: Flattening a Linked List ===============");
+        System.out.println("Link: https://www.geeksforgeeks.org/problems/flattening-a-linked-list/1");
         Node root = new Node(5);
         root.bottom = new Node(7);
         root.bottom.bottom = new Node(8);
@@ -235,11 +240,13 @@ public class B2_Day_08_LinkedList_Stack {
         System.out.println("\n=============== TOPIC: STACK ==================");
 
         System.out.println("=============== QUESTION 4: Next Greater Element ===============");
+        System.out.println("Link: https://www.geeksforgeeks.org/problems/next-larger-element-1587115620/1");
         int[] arr = {4, 5, 2, 25};
         ArrayList<Integer> res = nextLargerElement(arr);
         System.out.println(res);
 
         System.out.println("=============== QUESTION 5: Smallest Number on the Left ===============");
+        System.out.println("Link: https://www.geeksforgeeks.org/problems/smallest-number-on-left3403/1");
         int[] arr2 = {1, 6, 4, 10, 2, 5};
         int[] res2 = leftSmaller(arr2);
         System.out.println(Arrays.toString(res2));

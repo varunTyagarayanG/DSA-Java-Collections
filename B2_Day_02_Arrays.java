@@ -1,18 +1,20 @@
-// ========================= Question List =============================
-// Question 1: Count frequency of a target number in a sorted array
-// https://www.geeksforgeeks.org/problems/number-of-occurrence2259/1
-// Question 2: Search in Rotated Sorted Array
-// https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/1685820873/
-// Question 3: Allocate Minimum Number of Pages
-// https://www.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1
-// Question 4: Painter's Partition Problem
-// https://www.geeksforgeeks.org/problems/the-painters-partition-problem1535/1
-// Question 5: Max Sum Subarray of Size K
-// https://www.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1
-// Question 6: First Negative Integer in Every Window of Size K
-// https://www.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1
-// Question 7: Count Occurrences of Anagrams
-// https://www.geeksforgeeks.org/problems/count-occurences-of-anagrams5839/1
+/*
+ * DSA Problems Covered in this File:
+ * 1. Count frequency of a target number in a sorted array
+ *    GFG: https://www.geeksforgeeks.org/problems/number-of-occurrence2259/1
+ * 2. Search in Rotated Sorted Array
+ *    LeetCode: https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/1685820873/
+ * 3. Allocate Minimum Number of Pages
+ *    GFG: https://www.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1
+ * 4. Painter's Partition Problem
+ *    GFG: https://www.geeksforgeeks.org/problems/the-painters-partition-problem1535/1
+ * 5. Max Sum Subarray of Size K
+ *    GFG: https://www.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1
+ * 6. First Negative Integer in Every Window of Size K
+ *    GFG: https://www.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1
+ * 7. Count Occurrences of Anagrams
+ *    GFG: https://www.geeksforgeeks.org/problems/count-occurences-of-anagrams5839/1
+ */
 
 import java.util.*;
 
@@ -260,42 +262,49 @@ public class B2_Day_02_Arrays  {
 
     public static void main(String[] args) {
         System.out.println("=============== QUESTION 1: Count frequency of a target number in a sorted array ===============");
+        System.out.println("Link: https://www.geeksforgeeks.org/problems/number-of-occurrence2259/1");
         int[] arr = {1, 2, 2, 2, 3, 4, 5};
         int target = 2;
         int result = countFreq(arr, target);
         System.out.println("Frequency of " + target + " is: " + result);
 
         System.out.println("\n=============== QUESTION 2: Search in Rotated Sorted Array ===============");
+        System.out.println("Link: https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/1685820873/");
         int[] nums = {4, 5, 6, 7, 0, 1, 2};
         int key = 0;
         int index = searchInRotatedArray(nums, key);
         System.out.println("Index of " + key + " is: " + index);
 
         System.out.println("\n=============== QUESTION 3: Allocate Minimum Number of Pages ===============");
+        System.out.println("Link: https://www.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1");
         int[] books = {12, 34, 67, 90};
         int students = 2;
         int minPages = findPages(books, students);
         System.out.println("Minimum number of pages: " + minPages);
 
         System.out.println("\n=============== QUESTION 4: Painter's Partition Problem ===============");
+        System.out.println("Link: https://www.geeksforgeeks.org/problems/the-painters-partition-problem1535/1");
         int[] boards = {10, 20, 30, 40};
         int painters = 2;
         int minTimeToPaint = minTime(boards, painters);
         System.out.println("Minimum time to paint all boards: " + minTimeToPaint);
 
         System.out.println("\n=============== QUESTION 5: Max Sum Subarray of Size K ===============");
+        System.out.println("Link: https://www.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1");
         int[] a = {100, 200, 300, 400};
         int k = 2;
         int maxSum = maximumSumSubarray(a, k);
         System.out.println("Maximum sum of subarray of size " + k + ": " + maxSum);
 
         System.out.println("\n=============== QUESTION 6: First Negative Integer in Every Window of Size K ===============");
+        System.out.println("Link: https://www.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1");
         int[] windowArr = {12, -1, -7, 8, 15, 30, 16, 28};
         int windowSize = 3;
         List<Integer> negatives = firstNegInt(windowArr, windowSize);
         System.out.println("First negative integers in each window: " + negatives);
 
         System.out.println("\n=============== QUESTION 7: Count Occurrences of Anagrams ===============");
+        System.out.println("Link: https://www.geeksforgeeks.org/problems/count-occurences-of-anagrams5839/1");
         String pattern = "for";
         String text = "forxxorfxdofr";
         int anagramCount = countAnagrams(pattern, text);

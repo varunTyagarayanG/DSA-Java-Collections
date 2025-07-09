@@ -215,17 +215,7 @@ public class B2_Day_07_LinkedList {
     }
 
     public static void main(String[] args) {
-        /*
-        Linked List Interview Patterns Links (in order):
-        1. Merge Two Sorted Lists: https://leetcode.com/problems/merge-two-sorted-lists/
-        2. Add Two Numbers as Linked Lists: https://leetcode.com/problems/add-two-numbers/
-        3. Intersection Point in Y Shaped Linked Lists: https://www.geeksforgeeks.org/problems/intersection-point-in-y-shapped-linked-lists/1
-        4. Remove Nth Node From End: https://leetcode.com/problems/remove-nth-node-from-end-of-list/
-        5. Detect and Remove Cycle: https://leetcode.com/problems/linked-list-cycle/
-        */
-
-        // Q1
-        System.out.println("=============== QUESTION 1: MERGE TWO SORTED LISTS ===============");
+        System.out.println("=============== QUESTION 1: Merge Two Sorted Lists ===============");
         System.out.println("Link: https://leetcode.com/problems/merge-two-sorted-lists/");
         ListNode head1 = new ListNode(1, new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(3)))));
         printList(head1);

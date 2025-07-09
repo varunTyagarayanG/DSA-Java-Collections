@@ -1,3 +1,12 @@
+/*
+ * BST & Priority Queue (PQ) Links (in order):
+ * 1. Lowest Common Ancestor in a BST: https://www.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-bst/1
+ * 2. Balance a Binary Search Tree: https://leetcode.com/problems/balance-a-binary-search-tree/
+ * 3. Kth Smallest Element using PriorityQueue: https://www.geeksforgeeks.org/problems/kth-smallest-element5635/1
+ * 4. Kth Largest Element in an Array: https://leetcode.com/problems/kth-largest-element-in-an-array/
+ * 5. Nearly Sorted (K-Sorted) Array: https://www.geeksforgeeks.org/problems/nearly-sorted-1587115620/1
+ */
+
 import java.util.*;
 
 public class B2_Day_16_BST_PQ {

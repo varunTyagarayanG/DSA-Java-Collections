@@ -1,12 +1,14 @@
-import java.util.*;
+/*
+ * Stack Problems:
+ * 1. Stock Span Problem
+ *    GFG: https://www.geeksforgeeks.org/problems/stock-span-problem-1587115621/1
+ * 2. Maximum Rectangular Area in a Histogram
+ *    GFG: https://www.geeksforgeeks.org/problems/maximum-rectangular-area-in-a-histogram-1587115620/1
+ * 3. Maximal Rectangle
+ *    LeetCode: https://leetcode.com/problems/maximal-rectangle/
+ */
 
-// ========================= Question List =============================
-// Question 1: Stock Span Problem
-// 🔗 https://www.geeksforgeeks.org/problems/stock-span-problem-1587115621/1
-// Question 2: Maximum Rectangular Area in a Histogram
-// 🔗 https://www.geeksforgeeks.org/problems/maximum-rectangular-area-in-a-histogram-1587115620/1
-// Question 3: Maximal Rectangle
-// 🔗 https://leetcode.com/problems/maximal-rectangle/
+import java.util.*;
 
 public class B2_Day_09_Stack {
     // ========================= Question 1 =============================
@@ -113,16 +115,19 @@ public class B2_Day_09_Stack {
         // NSR: Right → Left | < | arr[st.peek()] >= arr[i]
 
         System.out.println("=============== QUESTION 1: Stock Span Problem ===============");
+        System.out.println("Link: https://www.geeksforgeeks.org/problems/stock-span-problem-1587115621/1");
         int[] prices = {100, 80, 60, 70, 60, 75, 85};
         ArrayList<Integer> spans = calculateSpan(prices);
         System.out.println(spans);
 
         System.out.println("=============== QUESTION 2: Maximum Rectangular Area in a Histogram ===============");
+        System.out.println("Link: https://www.geeksforgeeks.org/problems/maximum-rectangular-area-in-a-histogram-1587115620/1");
         int[] histogram = {6, 2, 5, 4, 5, 1, 6};
         int maxArea = getMaxArea(histogram);
         System.out.println(maxArea);
 
         System.out.println("=============== QUESTION 3: Maximal Rectangle ===============");
+        System.out.println("Link: https://leetcode.com/problems/maximal-rectangle/");
         char[][] matrix = {
             {'1','0','1','0','0'},
             {'1','0','1','1','1'},

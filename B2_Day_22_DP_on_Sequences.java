@@ -1,8 +1,8 @@
 /*
-Questions in this file:
-1. Longest Repeating Subsequence - https://www.geeksforgeeks.org/problems/longest-repeating-subsequence2004/1
-2. Is Subsequence - https://leetcode.com/problems/is-subsequence/
-3. Minimum Insertions to Make String Palindrome - https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/
+DP on Sequences Links (in order):
+1. Longest Repeating Subsequence: https://www.geeksforgeeks.org/problems/longest-repeating-subsequence2004/1
+2. Is Subsequence: https://leetcode.com/problems/is-subsequence/
+3. Minimum Insertions to Make String Palindrome: https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/
 */
 
 public class B2_Day_22_DP_on_Sequences {

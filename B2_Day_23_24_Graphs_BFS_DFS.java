@@ -1,11 +1,11 @@
 /*
-Questions in this file:
-1. DFS Traversal - https://www.geeksforgeeks.org/graph-dfs/
-2. BFS Traversal - https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/
-3. Convert Adjacency Matrix to Adjacency List - https://www.geeksforgeeks.org/graph-representations-using-adjacency-list-and-matrix/
-4. Minimum Steps by Knight - https://www.geeksforgeeks.org/problems/steps-by-knight5927/1
-5. Path Exists in Graph (DFS) - https://leetcode.com/problems/find-if-path-exists-in-graph/
-6. Reorder Routes to Make All Paths Lead to the City Zero - https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/description/
+Graphs: BFS, DFS, and Related Problems Links (in order):
+1. DFS Traversal: https://www.geeksforgeeks.org/graph-dfs/
+2. BFS Traversal: https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/
+3. Convert Adjacency Matrix to Adjacency List: https://www.geeksforgeeks.org/graph-representations-using-adjacency-list-and-matrix/
+4. Minimum Steps by Knight: https://www.geeksforgeeks.org/problems/steps-by-knight5927/1
+5. Path Exists in Graph (DFS): https://leetcode.com/problems/find-if-path-exists-in-graph/
+6. Reorder Routes to Make All Paths Lead to the City Zero: https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/description/
 */
 
 import java.util.*;

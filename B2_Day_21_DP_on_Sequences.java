@@ -1,14 +1,15 @@
 /*
-Questions in this file:
-1. Shortest Common Supersequence - https://leetcode.com/problems/shortest-common-supersequence/
-2. Minimum Deletions to Make Strings Equal - https://leetcode.com/problems/delete-operation-for-two-strings/
-3. Longest Palindromic Subsequence - https://leetcode.com/problems/longest-palindromic-subsequence/
-4. Minimum Deletions to Make a String Palindrome - https://www.geeksforgeeks.org/problems/minimum-deletions/0/
+DP on Sequences Links (in order):
+1. Shortest Common Supersequence: https://leetcode.com/problems/shortest-common-supersequence/
+2. Minimum Deletions to Make Strings Equal: https://leetcode.com/problems/delete-operation-for-two-strings/
+3. Longest Palindromic Subsequence: https://leetcode.com/problems/longest-palindromic-subsequence/
+4. Minimum Deletions to Make a String Palindrome: https://www.geeksforgeeks.org/problems/minimum-deletions/0/
 */
 
 public class B2_Day_21_DP_on_Sequences {
 
     // ========================= Question 1: Shortest Common Supersequence =============================
+
     // Link: https://leetcode.com/problems/shortest-common-supersequence/
     public static String shortestCommonSupersequence(String str1, String str2) {
         int n1 = str1.length();
@@ -77,6 +78,7 @@ public class B2_Day_21_DP_on_Sequences {
     }
 
     // ========================= Question 2: Minimum Deletions to Make Strings Equal =============================
+
     // Link: https://leetcode.com/problems/delete-operation-for-two-strings/
     public static int minDistance(String word1, String word2) {
         int n1 = word1.length();
@@ -97,6 +99,7 @@ public class B2_Day_21_DP_on_Sequences {
     }
 
     // ========================= Question 3: Longest Palindromic Subsequence =============================
+
     // Link: https://leetcode.com/problems/longest-palindromic-subsequence/
     public static int longestPalindromeSubseq(String s) {
         String word1 = s;
@@ -120,6 +123,7 @@ public class B2_Day_21_DP_on_Sequences {
     }
 
     // ========================= Question 4: Minimum Deletions to Make a String Palindrome =============================
+
     // Link: https://www.geeksforgeeks.org/problems/minimum-deletions/0/
     public static int minDeletions(String s) {
         String word1 = s;

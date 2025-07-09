@@ -1,16 +1,26 @@
 /*
-DSA Recursion Questions Links (in order):
-1. Delete Middle Element of Stack: https://www.geeksforgeeks.org/delete-middle-element-stack/
-2. Reverse a Stack: https://www.geeksforgeeks.org/problems/reverse-a-stack/1
-3. K-th Symbol in Grammar: https://leetcode.com/problems/k-th-symbol-in-grammar/
-4. Print Subsequences of a String: https://www.geeksforgeeks.org/print-subsequences-string/
-5. Subsets: https://leetcode.com/problems/subsets/
-6. Permutation with Spaces: https://www.geeksforgeeks.org/problems/permutation-with-spaces3627/1
-7. Permute String by Changing Case: https://www.geeksforgeeks.org/permute-string-changing-case/
-8. Letter Case Permutation (Alphanumeric): https://leetcode.com/problems/letter-case-permutation/
-9. Generate Parentheses: https://leetcode.com/problems/generate-parentheses/
-10. N-bit Binary Numbers with More 1s than 0s: https://www.geeksforgeeks.org/problems/print-n-bit-binary-numbers-having-more-1s-than-0s0252/1
-*/
+ * DSA Recursion Questions Links (in order):
+ * 1. Delete Middle Element of Stack
+ *    GFG: https://www.geeksforgeeks.org/delete-middle-element-stack/
+ * 2. Reverse a Stack
+ *    GFG: https://www.geeksforgeeks.org/problems/reverse-a-stack/1
+ * 3. K-th Symbol in Grammar
+ *    LeetCode: https://leetcode.com/problems/k-th-symbol-in-grammar/
+ * 4. Print Subsequences of a String
+ *    GFG: https://www.geeksforgeeks.org/print-subsequences-string/
+ * 5. Subsets
+ *    LeetCode: https://leetcode.com/problems/subsets/
+ * 6. Permutation with Spaces
+ *    GFG: https://www.geeksforgeeks.org/problems/permutation-with-spaces3627/1
+ * 7. Permute String by Changing Case
+ *    GFG: https://www.geeksforgeeks.org/permute-string-changing-case/
+ * 8. Letter Case Permutation (Alphanumeric)
+ *    LeetCode: https://leetcode.com/problems/letter-case-permutation/
+ * 9. Generate Parentheses
+ *    LeetCode: https://leetcode.com/problems/generate-parentheses/
+ * 10. N-bit Binary Numbers with More 1s than 0s
+ *     GFG: https://www.geeksforgeeks.org/problems/print-n-bit-binary-numbers-having-more-1s-than-0s0252/1
+ */
 import java.util.*;
 
 public class B2_Day_04_Recurssion {
@@ -221,8 +231,7 @@ public class B2_Day_04_Recurssion {
     }
     // Main
     public static void main(String[] args) {
-        // Q1
-        System.out.println("=============== QUESTION 1: DELETE MIDDLE ELEMENT ===============");
+        System.out.println("=============== QUESTION 1: Delete Middle Element of Stack ===============");
         System.out.println("Link: https://www.geeksforgeeks.org/delete-middle-element-stack/");
         Stack<Integer> stack1 = new Stack<>();
         stack1.push(10);
@@ -235,7 +244,7 @@ public class B2_Day_04_Recurssion {
         System.out.println("After Deleting Middle Element: " + stack1);
 
         // Q2
-        System.out.println("\n=============== QUESTION 2: REVERSE STACK ===============");
+        System.out.println("\n=============== QUESTION 2: Reverse a Stack ===============");
         System.out.println("Link: https://www.geeksforgeeks.org/problems/reverse-a-stack/1");
         Stack<Integer> stack2 = new Stack<>();
         stack2.push(100);
@@ -248,17 +257,17 @@ public class B2_Day_04_Recurssion {
         System.out.println("After Reversing Stack: " + stack2);
 
         // Q3
-        System.out.println("\n=============== QUESTION 3: K-TH SYMBOL IN GRAMMAR ===============");
+        System.out.println("\n=============== QUESTION 3: K-th Symbol in Grammar ===============");
         System.out.println("Link: https://leetcode.com/problems/k-th-symbol-in-grammar/");
         // TODO: Add implementation for Question 3 if needed
 
         // Q4
-        System.out.println("\n=============== QUESTION 4: PRINT SUBSEQUENCES ===============");
+        System.out.println("\n=============== QUESTION 4: Print Subsequences of a String ===============");
         System.out.println("Link: https://www.geeksforgeeks.org/print-subsequences-string/");
         generateAllSubsequences("abc", "");
 
         // Q5
-        System.out.println("\n=============== QUESTION 5: SUBSETS OF ARRAY ===============");
+        System.out.println("\n=============== QUESTION 5: Subsets ===============");
         System.out.println("Link: https://leetcode.com/problems/subsets/");
         int[] nums = {1, 2, 3};
         List<List<Integer>> subsets = subsets(nums);
@@ -267,7 +276,7 @@ public class B2_Day_04_Recurssion {
         }
 
         // Q6
-        System.out.println("\n=============== QUESTION 6: SPACE INSERTED PERMUTATIONS ===============");
+        System.out.println("\n=============== QUESTION 6: Permutation with Spaces ===============");
         System.out.println("Link: https://www.geeksforgeeks.org/problems/permutation-with-spaces3627/1");
         ArrayList<String> perms = spaceInsertedPermutations("ABC");
         for (String str : perms) {
@@ -275,7 +284,7 @@ public class B2_Day_04_Recurssion {
         }
 
         // Q7
-        System.out.println("\n=============== QUESTION 7: CASE CHANGE PERMUTATIONS ===============");
+        System.out.println("\n=============== QUESTION 7: Permute String by Changing Case ===============");
         System.out.println("Link: https://www.geeksforgeeks.org/permute-string-changing-case/");
         ArrayList<String> casePerms = permuteWithCases("aB");
         for (String str : casePerms) {
@@ -283,14 +292,14 @@ public class B2_Day_04_Recurssion {
         }
 
         // Q8
-        System.out.println("\n=============== QUESTION 8: LETTER CASE PERMUTATION (with digits) ===============");
+        System.out.println("\n=============== QUESTION 8: Letter Case Permutation (Alphanumeric) ===============");
         System.out.println("Link: https://leetcode.com/problems/letter-case-permutation/");
         List<String> caseDigitPerms = letterCasePermutation("a1b2");
         for (String str : caseDigitPerms) {
             System.out.println(str);
         }
         
-        System.out.println("\n=============== QUESTION 9: GENERATE PARENTHESES ===============");
+        System.out.println("\n=============== QUESTION 9: Generate Parentheses ===============");
         System.out.println("Link: https://leetcode.com/problems/generate-parentheses/");
         List<String> res9 = generateParenthesis(3);
         for (String s : res9) {
@@ -298,7 +307,7 @@ public class B2_Day_04_Recurssion {
         }
 
         // Q10 Output
-        System.out.println("\n=============== QUESTION 10: N-BIT BINARY WITH MORE 1s THAN 0s ===============");
+        System.out.println("\n=============== QUESTION 10: N-bit Binary Numbers with More 1s than 0s ===============");
         System.out.println("Link: https://www.geeksforgeeks.org/problems/print-n-bit-binary-numbers-having-more-1s-than-0s0252/1");
         List<String> res10 = NBitBinary(3);
         for (String s : res10) {

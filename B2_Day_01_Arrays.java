@@ -1,11 +1,17 @@
 /*
-Questions in this file:
-1. Intersection of Two Arrays - https://leetcode.com/problems/intersection-of-two-arrays/
-2. Subarray with Given Sum - https://www.geeksforgeeks.org/problems/subarray-with-given-sum/0
-3. Merge Sorted Array - https://leetcode.com/problems/merge-sorted-array/
-4. Maximum Subarray (Kadane's Algorithm) - https://leetcode.com/problems/maximum-subarray/
-5. Peak Index in a Mountain Array - https://leetcode.com/problems/peak-index-in-a-mountain-array/
-6. Find First and Last Position of Element in Sorted Array - https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+ * DSA Problems Covered in this File:
+ * 1. Intersection of Two Arrays
+ *    LeetCode: https://leetcode.com/problems/intersection-of-two-arrays/
+ * 2. Subarray with Given Sum
+ *    GFG: https://www.geeksforgeeks.org/problems/subarray-with-given-sum/0
+ * 3. Merge Sorted Array
+ *    LeetCode: https://leetcode.com/problems/merge-sorted-array/
+ * 4. Maximum Subarray (Kadane's Algorithm)
+ *    LeetCode: https://leetcode.com/problems/maximum-subarray/
+ * 5. Peak Index in a Mountain Array
+ *    LeetCode: https://leetcode.com/problems/peak-index-in-a-mountain-array/
+ * 6. Find First and Last Position of Element in Sorted Array
+ *    LeetCode: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 */
 
 import java.util.*;
@@ -109,27 +115,33 @@ public class B2_Day_01_Arrays  {
     // ========================= main() =============================
     public static void main(String[] args) {
         System.out.println("=============== QUESTION 1: Intersection of Two Arrays ===============");
+        System.out.println("Link: https://leetcode.com/problems/intersection-of-two-arrays/");
         int[] nums1 = {1, 2, 2, 1}, nums2 = {2, 2};
         System.out.println("Result: " + Arrays.toString(intersection(nums1, nums2)));
 
         System.out.println("\n=============== QUESTION 2: Subarray with Given Sum ===============");
+        System.out.println("Link: https://www.geeksforgeeks.org/problems/subarray-with-given-sum/0");
         int[] arr = {1, 2, 3, 7, 5}; int target = 12;
         System.out.println("Result: " + subarraySum(arr, target));
 
         System.out.println("\n=============== QUESTION 3: Merge Sorted Array ===============");
+        System.out.println("Link: https://leetcode.com/problems/merge-sorted-array/");
         int[] nums3_1 = {1, 2, 3, 0, 0, 0}, nums3_2 = {2, 5, 6};
         mergeSortedArrays(nums3_1, 3, nums3_2, 3);
         System.out.println("Result: " + Arrays.toString(nums3_1));
 
         System.out.println("\n=============== QUESTION 4: Maximum Subarray ===============");
+        System.out.println("Link: https://leetcode.com/problems/maximum-subarray/");
         int[] nums4 = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
         System.out.println("Result: " + maxSubArray(nums4));
 
         System.out.println("\n=============== QUESTION 5: Peak Index in Mountain Array ===============");
+        System.out.println("Link: https://leetcode.com/problems/peak-index-in-a-mountain-array/");
         int[] nums5 = {0, 2, 4, 6, 3, 1};
         System.out.println("Result: " + peakIndexInMountainArray(nums5));
 
         System.out.println("\n=============== QUESTION 6: First and Last Position of Element ===============");
+        System.out.println("Link: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/");
         int[] nums6 = {5, 7, 7, 8, 8, 10}; int tgt = 8;
         System.out.println("Result: " + Arrays.toString(searchRange(nums6, tgt)));
     }

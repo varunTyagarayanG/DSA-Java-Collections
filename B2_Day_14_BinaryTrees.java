@@ -1,3 +1,11 @@
+/*
+ * Binary Trees 2 Links (in order):
+ * 1. K Sum Paths: https://www.geeksforgeeks.org/problems/k-sum-paths/1
+ * 2. Sum of the Longest Bloodline of a Tree: https://www.geeksforgeeks.org/problems/sum-of-the-longest-bloodline-of-a-tree/1
+ * 3. Lowest Common Ancestor in a Binary Tree: https://www.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-binary-tree/1
+ * 4. Kth Ancestor in a Binary Tree: https://www.geeksforgeeks.org/problems/kth-ancestor-in-a-tree/1
+ */
+
 import java.util.*;
 
 class B2_Day_14_BinaryTrees {

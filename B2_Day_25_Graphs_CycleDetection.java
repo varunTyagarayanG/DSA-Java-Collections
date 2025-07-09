@@ -1,8 +1,8 @@
-// Question 1: Detect Cycle in an Undirected Graph using BFS
-// Link: https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1
-
-// Question 2: Detect Cycle in a Directed Graph using DFS
-// Link: https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1
+/*
+Graphs: Cycle Detection Links (in order):
+1. Detect Cycle in an Undirected Graph using BFS: https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1
+2. Detect Cycle in a Directed Graph using DFS: https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1
+*/
 
 import java.util.*;
 
