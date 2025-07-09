@@ -56,7 +56,13 @@ Below is a day-wise, file-wise index of all DSA problems solved, with direct lin
 
 ### B2_Day_05_LinkedList.java
 **Linked List Basic Operations:**
-- (No external links listed)
+1. insertAtHead
+2. insertAtTail
+3. deleteNode
+4. printList
+5. reverseList
+6. findMiddle
+7. hasCycle
 
 ---
 
