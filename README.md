@@ -142,6 +142,15 @@
 6. Kth Largest Element in BST ([GFG](https://www.geeksforgeeks.org/kth-largest-element-in-bst-when-modification-to-bst-is-not-allowed/))
 
 ---
+## B2_Day_16_BST_PQ.java
+**BST & Priority Queue Problems:**
+1. Convert Sorted Array to BST ([LeetCode](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/))
+2. Find Median in a Stream ([GFG](https://www.geeksforgeeks.org/problems/find-median-in-a-stream-1587115620/1))
+3. Kth Largest Element in a Stream ([LeetCode](https://leetcode.com/problems/kth-largest-element-in-a-stream/))
+4. Merge K Sorted Lists ([LeetCode](https://leetcode.com/problems/merge-k-sorted-lists/))
+5. Top K Frequent Elements ([LeetCode](https://leetcode.com/problems/top-k-frequent-elements/))
+
+---
 ## B2_Day_18_DP_knapsack.java
 **Dynamic Programming: Knapsack and Related Problems**
 1. 0/1 Knapsack ([GFG](https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1))
