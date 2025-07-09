@@ -132,6 +132,16 @@
 4. Kth Ancestor in a Binary Tree ([GFG](https://www.geeksforgeeks.org/problems/kth-ancestor-in-a-tree/1))
 
 ---
+## B2_Day_15_BSTs.java
+**Binary Search Trees (BSTs):**
+1. Insert a Node in BST ([LeetCode](https://leetcode.com/problems/insert-into-a-binary-search-tree/))
+2. Delete a Node in BST ([LeetCode](https://leetcode.com/problems/delete-node-in-a-bst/))
+3. Inorder, Preorder, Postorder Traversals of BST ([GFG](https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/))
+4. Validate if it is a BST ([LeetCode](https://leetcode.com/problems/validate-binary-search-tree/))
+5. Kth Smallest Element in BST ([LeetCode](https://leetcode.com/problems/kth-smallest-element-in-a-bst/))
+6. Kth Largest Element in BST ([GFG](https://www.geeksforgeeks.org/kth-largest-element-in-bst-when-modification-to-bst-is-not-allowed/))
+
+---
 ## B2_Day_18_DP_knapsack.java
 **Dynamic Programming: Knapsack and Related Problems**
 1. 0/1 Knapsack ([GFG](https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1))
