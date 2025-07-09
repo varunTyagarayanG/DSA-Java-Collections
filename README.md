@@ -1,4 +1,17 @@
-﻿# DSA With Java Collections 
+<h1 align="center">🚀 DSA With Java Collections</h1>
+
+<p align="center">
+  A hands-on guide to mastering <strong>Data Structures & Algorithms</strong> using the power of the <strong>Java Collections Framework</strong>.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-Collections-orange?style=for-the-badge&logo=java&logoColor=white">
+  <img src="https://img.shields.io/badge/Level-Intermediate-blueviolet?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge">
+</p>
+
+---
+
 
 ---
 
