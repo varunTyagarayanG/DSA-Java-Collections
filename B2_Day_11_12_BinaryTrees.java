@@ -29,9 +29,8 @@ public class B2_Day_11_12_BinaryTrees {
     static int idx = 0;
     static int[] treeInput = {10, 5, 3, -1, -1, 7, -1, 8, -1, -1, 20, -1, 25, -1, -1};
 
-    // Question 1 : ---------------------------------------------Start-------------------------------------------------
-    // Build Tree + Traversals
-    // LeetCode: https://leetcode.com/problems/binary-tree-inorder-traversal/
+    // ========================= Question 1: Binary Tree Construction =============================
+    // (custom input)
     public static TreeNode buildTree() {
         if (idx >= treeInput.length || treeInput[idx] == -1) {
             idx++;
@@ -56,6 +55,8 @@ public class B2_Day_11_12_BinaryTrees {
         }
     }
 
+    // ========================= Question 2: Preorder, Inorder, Postorder Traversal =============================
+    // Inorder: https://leetcode.com/problems/binary-tree-inorder-traversal/
     public static void inorder(TreeNode root) {
         if (root == null) return;
         inorder(root.left);
@@ -77,6 +78,8 @@ public class B2_Day_11_12_BinaryTrees {
         System.out.print(root.data + " ");
     }
 
+    // ========================= Question 3: Level Order Traversal =============================
+    // (standard traversal)
     public static void levelOrderTraversal(TreeNode root) {
         if (root == null) return;
 
@@ -95,7 +98,8 @@ public class B2_Day_11_12_BinaryTrees {
     }
     // Question 1 : ---------------------------------------------End---------------------------------------------------
 
-    // Question 2 : ---------------------------------------------Start-------------------------------------------------
+    // ========================= Question 4: Height/Depth of Binary Tree =============================
+    // (standard)
     public static int depth(TreeNode root) {
         if (root == null) return 0;
         int left = depth(root.left);
@@ -104,7 +108,8 @@ public class B2_Day_11_12_BinaryTrees {
     }
     // Question 2 : ---------------------------------------------End---------------------------------------------------
 
-    // Question 3 : ---------------------------------------------Start-------------------------------------------------
+    // ========================= Question 5: Diameter of Binary Tree =============================
+    // (standard)
     static int diameter;
 
     public static int diameterOfBinaryTree(TreeNode root) {
@@ -122,7 +127,8 @@ public class B2_Day_11_12_BinaryTrees {
     }
     // Question 3 : ---------------------------------------------End---------------------------------------------------
 
-    // Question 4 : ---------------------------------------------Start-------------------------------------------------
+    // ========================= Question 6: Check for Balanced Binary Tree =============================
+    // (standard)
     public static boolean isBalanced(TreeNode root) {
         return checkBalancedHeight(root) != -1;
     }
@@ -142,7 +148,8 @@ public class B2_Day_11_12_BinaryTrees {
     }
     // Question 4 : ---------------------------------------------End---------------------------------------------------
 
-    // Question 5 : ---------------------------------------------Start-------------------------------------------------
+    // ========================= Question 7: Check if Two Trees are Same =============================
+    // https://leetcode.com/problems/same-tree/
     public static boolean isSameTree(TreeNode p, TreeNode q) {
         if (p == null && q == null) return true;
         if (p == null || q == null || p.data != q.data) return false;
@@ -150,7 +157,8 @@ public class B2_Day_11_12_BinaryTrees {
     }
     // Question 5 : ---------------------------------------------End---------------------------------------------------
 
-    // Question 6 : ---------------------------------------------Start-------------------------------------------------
+    // ========================= Question 8: Check for Sum Tree =============================
+    // (standard)
     public static boolean isSumTree(TreeNode root) {
         return sumTreeHelper(root) != -1;
     }
@@ -169,7 +177,8 @@ public class B2_Day_11_12_BinaryTrees {
     }
     // Question 6 : ---------------------------------------------End---------------------------------------------------
 
-    // Question 7 : ---------------------------------------------Start-------------------------------------------------
+    // ========================= Question 9: Zigzag Level Order Traversal =============================
+    // https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
     public static List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         List<List<Integer>> ans = new ArrayList<>();
         if (root == null) return ans;

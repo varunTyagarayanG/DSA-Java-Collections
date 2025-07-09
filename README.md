@@ -77,8 +77,8 @@
 1. Sort Linked List using Merge Sort ([LeetCode](https://leetcode.com/problems/sort-list/))
 2. Remove Duplicates from Sorted List II ([LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/))
 3. Flattening a Linked List ([GFG](https://www.geeksforgeeks.org/problems/flattening-a-linked-list/1))
-4. Next Greater Element (Stack) ([GFG](https://www.geeksforgeeks.org/problems/next-larger-element-1587115620/1))
-5. Smallest Number on the Left (Stack) ([GFG](https://www.geeksforgeeks.org/problems/smallest-number-on-left3403/1))
+4. Next Greater Element (Topic: Stack) ([GFG](https://www.geeksforgeeks.org/problems/next-larger-element-1587115620/1))
+5. Smallest Number on the Left (Topic: Stack) ([GFG](https://www.geeksforgeeks.org/problems/smallest-number-on-left3403/1))
 
 ---
 
@@ -93,7 +93,7 @@
 ## B2_Day_10_Stack.java
 **Stack & Miscellaneous Problems:**
 1. The Celebrity Problem ([GFG](https://www.geeksforgeeks.org/problems/the-celebrity-problem/1))
-2. Trapping Rain Water ([LeetCode](https://leetcode.com/problems/trapping-rain-water/submissions/1230659371/))
+2. Trapping Rain Water ([LeetCode](https://leetcode.com/problems/trapping-rain-water/))
 3. First Non-Repeating Character in a Stream ([GFG](https://www.geeksforgeeks.org/problems/first-non-repeating-character-in-a-stream/0))
 
 ---
@@ -124,6 +124,14 @@
 
 ---
 
+## B2_Day_14_BinaryTrees.java
+**Binary Trees 2:**
+1. K Sum Paths ([GFG](https://www.geeksforgeeks.org/problems/k-sum-paths/1))
+2. Sum of the Longest Bloodline of a Tree ([GFG](https://www.geeksforgeeks.org/problems/sum-of-the-longest-bloodline-of-a-tree/1))
+3. Lowest Common Ancestor in a Binary Tree ([GFG](https://www.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-binary-tree/1))
+4. Kth Ancestor in a Binary Tree ([GFG](https://www.geeksforgeeks.org/problems/kth-ancestor-in-a-tree/1))
+
+---
 ## B2_Day_18_DP_knapsack.java
 **Dynamic Programming: Knapsack and Related Problems**
 1. 0/1 Knapsack ([GFG](https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1))
@@ -172,3 +180,5 @@
 2. Detect Cycle in a Directed Graph (DFS) ([GFG](https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1))
 
 ---
+
+
