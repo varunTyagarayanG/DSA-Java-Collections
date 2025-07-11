@@ -88,13 +88,13 @@ This is a day-wise and file-wise index of all DSA problems solved, each carefull
 
 ### B2_Day_05_LinkedList.java
 **Linked List Basic Operations:**
-1. insertAtHead
-2. insertAtTail
-3. deleteNode
-4. printList
-5. reverseList
-6. findMiddle
-7. hasCycle
+1. [Insert at Head (GFG)](https://www.geeksforgeeks.org/insert-a-node-at-the-beginning-of-the-linked-list/)
+2. [Insert at End (GFG)](https://www.geeksforgeeks.org/insert-a-node-at-the-end-of-the-linked-list/)
+3. [Insert at Position (GFG)](https://www.geeksforgeeks.org/insert-a-node-at-a-given-position-in-a-linked-list/)
+4. [Delete at Head (GFG)](https://www.geeksforgeeks.org/delete-a-node-from-the-beginning-of-the-linked-list/)
+5. [Delete at End (GFG)](https://www.geeksforgeeks.org/delete-a-node-from-the-end-of-the-linked-list/)
+6. [Delete at Position (GFG)](https://www.geeksforgeeks.org/delete-a-linked-list-node-at-a-given-position/)
+7. [Detect Cycle (LeetCode)](https://leetcode.com/problems/linked-list-cycle/)
 
 ---
 
