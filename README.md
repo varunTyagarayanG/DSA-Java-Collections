@@ -266,4 +266,14 @@ This is a day-wise and file-wise index of all DSA problems solved, each carefull
 
 ---
 
+### B2_Day_26_GraphCycles_TopologicalSort.java
+**Graph Cycles & Topological Sort Problems:**
+1. [Eventual Safe States (GFG)](https://www.geeksforgeeks.org/problems/eventual-safe-states/1)
+2. [Longest Cycle in a Graph (LeetCode)](https://leetcode.com/problems/longest-cycle-in-a-graph/)
+3. [Shortest Cycle in a Graph (LeetCode)](https://leetcode.com/problems/shortest-cycle-in-a-graph/)
+4. [Topological Sort (Kahn's Algorithm) (GFG)](https://www.geeksforgeeks.org/problems/topological-sort/1)
+5. [Topological Sort (DFS-based) (GFG)](https://www.geeksforgeeks.org/problems/topological-sort/1)
+
+---
+
 
