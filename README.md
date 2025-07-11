@@ -146,14 +146,14 @@ This is a day-wise and file-wise index of all DSA problems solved, each carefull
 
 ### B2_Day_11_12_BinaryTrees.java
 **Binary Tree Core & Advanced Concepts:**
-1. Binary Tree Construction
+1. [Binary Tree Construction (GFG)](https://www.geeksforgeeks.org/binary-tree-data-structure/)
 2. [Preorder, Inorder, Postorder Traversal (LeetCode)](https://leetcode.com/problems/binary-tree-inorder-traversal/)
-3. Level Order Traversal
-4. Height/Depth of Binary Tree
-5. Diameter of Binary Tree
-6. Check for Balanced Binary Tree
+3. [Level Order Traversal (GFG)](https://www.geeksforgeeks.org/level-order-tree-traversal/)
+4. [Height/Depth of Binary Tree (GFG)](https://www.geeksforgeeks.org/write-a-c-program-to-find-the-height-or-depth-of-a-tree/)
+5. [Diameter of Binary Tree (LeetCode)](https://leetcode.com/problems/diameter-of-binary-tree/)
+6. [Check for Balanced Binary Tree (GFG)](https://www.geeksforgeeks.org/how-to-determine-if-a-binary-tree-is-balanced/)
 7. [Check if Two Trees are Same (LeetCode)](https://leetcode.com/problems/same-tree/)
-8. Check for Sum Tree
+8. [Check for Sum Tree (GFG)](https://www.geeksforgeeks.org/sum-tree/)
 9. [Zigzag Level Order Traversal (LeetCode)](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
 
 ---

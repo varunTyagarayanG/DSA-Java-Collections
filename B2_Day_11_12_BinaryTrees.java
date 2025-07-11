@@ -1,13 +1,15 @@
 /*
  * Binary Tree Core & Advanced Questions Links (in order):
- * 1. Binary Tree Construction: (custom input)
- * 2. Preorder, Inorder, Postorder Traversal: https://leetcode.com/problems/binary-tree-inorder-traversal/
- * 3. Level Order Traversal: (standard traversal)
- * 4. Height/Depth of Binary Tree: (standard)
- * 5. Diameter of Binary Tree: (standard)
- * 6. Check for Balanced Binary Tree: (standard)
+ * 1. Binary Tree Construction: https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+ * 2. Preorder Traversal: https://leetcode.com/problems/binary-tree-preorder-traversal/
+ *    Inorder Traversal: https://leetcode.com/problems/binary-tree-inorder-traversal/
+ *    Postorder Traversal: https://leetcode.com/problems/binary-tree-postorder-traversal/
+ * 3. Level Order Traversal: https://www.geeksforgeeks.org/level-order-traversal-in-binary-tree/
+ * 4. Height/Depth of Binary Tree: https://www.geeksforgeeks.org/write-a-c-program-to-find-the-height-of-a-tree/
+ * 5. Diameter of Binary Tree: https://leetcode.com/problems/diameter-of-binary-tree/
+ * 6. Check for Balanced Binary Tree: https://leetcode.com/problems/balanced-binary-tree/
  * 7. Check if Two Trees are Same: https://leetcode.com/problems/same-tree/
- * 8. Check for Sum Tree: (standard)
+ * 8. Check for Sum Tree: https://www.geeksforgeeks.org/sum-tree/
  * 9. Zigzag Level Order Traversal: https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
  */
 
@@ -235,17 +237,17 @@ public class B2_Day_11_12_BinaryTrees {
 
         // Q2
         System.out.println("\n=============== QUESTION 2: HEIGHT/DEPTH OF BINARY TREE ===============");
-        System.out.println("Link: (standard)");
+        System.out.println("Link: https://www.geeksforgeeks.org/write-a-c-program-to-find-the-height-of-a-tree/");
         System.out.println("Depth: " + depth(root));
 
         // Q3
         System.out.println("\n=============== QUESTION 3: DIAMETER OF BINARY TREE ===============");
-        System.out.println("Link: (standard)");
+        System.out.println("Link: https://leetcode.com/problems/diameter-of-binary-tree/");
         System.out.println("Diameter: " + diameterOfBinaryTree(root));
 
         // Q4
         System.out.println("\n=============== QUESTION 4: CHECK FOR BALANCED BINARY TREE ===============");
-        System.out.println("Link: (standard)");
+        System.out.println("Link: https://leetcode.com/problems/balanced-binary-tree/");
         System.out.println("Balanced? " + isBalanced(root));
 
         // Q5
@@ -255,7 +257,7 @@ public class B2_Day_11_12_BinaryTrees {
 
         // Q6
         System.out.println("\n=============== QUESTION 6: CHECK FOR SUM TREE ===============");
-        System.out.println("Link: (standard)");
+        System.out.println("Link: https://www.geeksforgeeks.org/sum-tree/");
         System.out.println("Sum Tree? " + isSumTree(root));
 
         // Q7
