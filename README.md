@@ -36,7 +36,7 @@ Each file is self-contained and runnable, with code comments and output examples
 
 ## Day-wise DSA Java Solutions Index
 
-"This is a day-wise and file-wise index of all DSA problems solved, each carefully selected based on popular problem-solving patterns. Every file begins with a block comment summarizing its contents and includes the problem link printed before each solution in the code.
+This is a day-wise and file-wise index of all DSA problems solved, each carefully selected based on popular problem-solving patterns. Every file begins with a block comment summarizing its contents and includes the problem link printed before each solution in the code.
 
 ---
 
