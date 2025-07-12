@@ -288,4 +288,20 @@ This is a day-wise and file-wise index of all DSA problems solved, each carefull
 
 ---
 
+### B2_Day_27_TopologicalSort.java
+**Topological Sort & Related Problems:**
+1. [Course Schedule II (LeetCode) - Medium](https://leetcode.com/problems/course-schedule-ii/)
+2. [Largest Color Value in a Directed Graph (LeetCode) - Hard](https://leetcode.com/problems/largest-color-value-in-a-directed-graph/)
+3. [Flood Fill (LeetCode) - Easy](https://leetcode.com/problems/flood-fill/)
+
+---
+
+### B2_day_28_GraphGrids.java
+**Islands & Grids Problems:**
+1. [Number of Islands (LeetCode) - Medium](https://leetcode.com/problems/number-of-islands/)
+2. [Rotting Oranges (LeetCode) - Medium](https://leetcode.com/problems/rotting-oranges/)
+3. [Chef and Wells (GeeksforGeeks) - Medium](https://www.geeksforgeeks.org/problems/geeks-village-and-wells--170647/1)
+
+---
+
 
